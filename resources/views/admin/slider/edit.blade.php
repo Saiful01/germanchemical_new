@@ -35,7 +35,7 @@
 
                 <div class="form-group">
                     <label>Image:</label>
-                    <input type="file" class="form-control" placeholder="Name" name="image"value="{{$result->image}}">
+                    <input type="file" class="form-control" placeholder="Name" name="slider_image"value="{{$result->image}}">
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>

@@ -1613,3 +1613,37 @@ body.mobile-nav-active #mobile-nav-toggle {
   min-height: 550px;
 }
 
+.progress-bar {
+  text-align: left;
+  padding: 10px 15px;
+}
+
+.bg-custom-color{
+  background: #FF4223;
+}
+.progress-bar .fa {
+  float: right;
+  padding-top: 5px;
+}
+.progress-bar small{
+  font-size: 20px;
+}
+.progress-bar:hover{
+  background: #ff1105;
+}
+
+a:hover, a:active, a:focus {
+  color: #ffffff;
+  outline: none;
+  text-decoration: none;
+}
+.btn-info {
+  color: #fff;
+  background-color: #FF4223;
+  border-color: #FF4223;
+}
+.btn-info:hover {
+  color: #fff;
+  background-color: #ff1105;
+  border-color: #ff1105;
+}

@@ -22,7 +22,7 @@
 
                             <div class="card-body">
                                 <a href="/pages/products/details/{{$res->pro_id}}">
-                                    <img class="card-img-top" src="/img/product/{{$res->pro_image}}" alt="Product image"
+                                    <img class="card-img-top" src="/images/product/{{$res->pro_image}}" alt="Product image"
                                          width="100%" height="250px">
                                 </a>
                                 <hr>

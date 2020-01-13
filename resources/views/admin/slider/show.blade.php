@@ -46,9 +46,9 @@
                         <td>{{$res->slider_name}} </td>
                         <td>{{$res->slider_title}} </td>
                         <td>{{$res->slider_sub_title}} </td>
-                        <td><img src="/img/slider/{{$res->slider_image}}" width="100px" height="70px"/></td>
-                        <td><a class="btn btn-info" href="/slider/edit/{{$res->slider_id}}">Edit</a> <a
-                                    class="btn btn-danger" href="/slider/delete/{{$res->slider_id}}">Delete</a></td>
+                        <td><img src="/images/slider/{{$res->slider_image}}" width="100px" height="70px"/></td>
+                        <td><a class="btn btn-sm btn-info" href="/slider/edit/{{$res->slider_id}}">Edit</a> <a
+                                    class="btn btn-sm btn-danger" href="/slider/delete/{{$res->slider_id}}">Delete</a></td>
 
 
                     </tr>

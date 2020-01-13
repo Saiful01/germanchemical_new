@@ -28,15 +28,14 @@
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>Employee name</th>
+                        <th>Name</th>
                         <th>  Email</th>
                         <th> phone</th>
                         <th>  Bio</th>
                         <th>  Image</th>
                         <th>  Designation</th>
                         <th>  Joining Date</th>
-                        <th>Edit</th>
-                        <th>Delete</th>
+                        <th>Action</th>
 
                     </tr>
                     </thead>
@@ -50,11 +49,10 @@
                         <td>{{$res->emp_email}} </td>
                         <td>{{$res->emp_phone}}</td>
                         <td>{{$res->emp_bio}} </td>
-                        <td>{{$res->emp_image}} </td>
+                        <td><img src="/images/employee/{{$res->emp_image}}" height="50px "/> </td>
                         <td>{{$res->emp_designation}} </td>
                         <td>{{$res->emp_join_date}} </td>
-                        <td><a class="btn btn-info" href="/employee/edit/{{$res->emp_id}}">Edit</a></td>
-                        <td><a class="btn btn-danger" href="/employee/delete/{{$res->emp_id}}">Delete</a></td>
+                        <td><a class="btn btn-sm btn-info" href="/employee/edit/{{$res->emp_id}}">Edit</a><a class="btn btn-sm btn-danger" href="/employee/delete/{{$res->emp_id}}">Delete</a></td>
 
                     </tr>
 

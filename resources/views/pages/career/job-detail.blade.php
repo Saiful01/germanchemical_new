@@ -12,7 +12,7 @@
             </header>
                 <div class="row align-items-start">
 
-                    <div class="col-md-12 col-lg-8">
+                    <div class="col-md-12 col-lg-7">
                         <div class="row">
                             <!-- Blog Items -->
                             <div class="col-md-12">
@@ -50,7 +50,7 @@
                     </div>
 
 
-                    <div class="col-md-12 col-lg-4">
+                    <div class="col-md-12 col-lg-5">
                         <!-- Add Some Left Space -->
                         <aside class="sidebar-spacer row">
 
@@ -63,9 +63,10 @@
 
                                                 <div class="media-body post-text">
                                                     @foreach($job_list as $job)
-                                                        <h5 class="mb-3 h5-md"><a
-                                                                    href="/job/job-detail/{{$result->job_id}}">{{$job->job_title}}</a>
-                                                        </h5>
+                                                        <a href="/job/job-detail/{{$job->job_id}}"
+                                                           class="progress-bar bg-custom-color"><small>{{$job->job_title}}<span><i class="fa fa-chevron-right"></i></span></small></a>
+                                                        <br>
+
                                                     @endforeach
                                                 </div>
                                             </div>

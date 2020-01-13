@@ -16,6 +16,15 @@
 
             <div class="row justify-content-between">
                 <div class="col-md-8 mx-auto">
+
+                    @if(Session::has('success'))
+                        <p class="alert {{ Session::get('alert-class', 'alert-success') }}">{{ Session::get('success') }}</p>
+                    @endif
+
+                    @if(Session::has('failed'))
+                        <p class="alert {{ Session::get('alert-class', 'alert-danger') }}">{{ Session::get('failed') }}</p>
+                    @endif
+
                     @if(count($result)<=0)
 
                         <h5>No Jobs Found</h5>
@@ -24,8 +33,7 @@
 
 
                         <a href="/job/job-detail/{{$res->job_id}}"
-                           class="btn-theme bg-orange mt-2">{{$res->job_title}} <i
-                                    class="icofont-rounded-right"></i></a>
+                           class="progress-bar bg-custom-color"><small>{{$res->job_title}}<span><i class="fa fa-chevron-right"></i></span></small></a>
                         <br>
 
                     @endforeach

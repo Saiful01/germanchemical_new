@@ -23,23 +23,23 @@
 
                 <div class="form-group">
                     <label>Employee Email:</label>
-                    <input type="email" class="form-control"  name="emp_email" value=" {{$result->emp_email}} ">
+                    <input type="email" class="form-control"  name="emp_email" value="{{$result->emp_email}} ">
                 </div>
                 <div class="form-group">
                     <label>Employee phone:</label>
-                    <input type="number" class="form-control"  name="emp_phone" value=" {{$result->emp_phone}} ">
+                    <input type="number" class="form-control"  name="emp_phone" value="{{$result->emp_phone}}" required>
                 </div>
                 <div class="form-group">
                     <label>Employee Bio:</label>
-                    <input type="text" class="form-control"  name="emp_bio" value=" {{$result->emp_bio}} ">
+                    <input type="text" class="form-control"  name="emp_bio" value="{{$result->emp_bio}} ">
                 </div>
                 <div class="form-group">
                     <label>Employee Picture:</label>
-                    <input type="file" class="form-control"  name="emp_image" value=" {{$result->emp_image}} ">
+                    <input type="file" class="form-control"  name="emp_image" value="{{$result->emp_image}} ">
                 </div>
                 <div class="form-group">
                     <label>Employee Designation:</label>
-                    <input type="text" class="form-control"  name="emp_designation" value=" {{$result->emp_designation}} ">
+                    <input type="text" class="form-control"  name="emp_designation" value="{{$result->emp_designation}} ">
                 </div>
                 <div class="form-group">
                     <label>Employee Joining Date:</label>

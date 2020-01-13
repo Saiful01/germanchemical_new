@@ -16,10 +16,11 @@ class CreateApplicantTablesTable extends Migration
         Schema::create('applicant_tables', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('app_name');
-            $table->string('app_email');
-            $table->string('app_max_edu');
-            $table->string('app_phone');
-            $table->string('app_password');
+            $table->string('app_email')->nullable();
+            $table->string('app_max_edu')->nullable();
+            $table->string('app_phone')->nullable();
+            $table->string('app_password')->nullable();
+            $table->string('app_cv')->nullable();
             $table->timestamps();
         });
     }

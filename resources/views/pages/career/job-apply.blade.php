@@ -28,7 +28,7 @@
 
 
                         <form action="/applicant/job-apply" method="post"
-                              class="col rounded-field">
+                              class="col rounded-field"  enctype='multipart/form-data'>
                             <div class="form-row mb-4">
                                 <div class="col">
                                     <label>Applicant name:</label>
@@ -68,14 +68,25 @@
                             </div>
 
 
+                            {{--  <div class="form-row mb-4">
+
+                                  <div class="col">
+                                      <label>Applicant Password:</label>
+
+                                      <input type="text" name="app_password" id="app_password" class="form-control">
+                                      --}}{{--<input type="password" name="app_password" id="Password"
+                                             class="form-control">--}}{{--
+
+                                  </div>
+                              </div>
+  --}}
+
                             <div class="form-row mb-4">
 
                                 <div class="col">
-                                    <label>Applicant Password:</label>
+                                    <label>Applicant Cv:</label>
 
-                                    <input type="text" name="app_password" id="app_password" class="form-control">
-                                    {{--<input type="password" name="app_password" id="Password"
-                                           class="form-control">--}}
+                                    <input type="file" name="app_cv" class="form-control" required>
 
                                 </div>
                             </div>
@@ -84,7 +95,7 @@
                             <div class="form-row text-center">
 
                                 <button id="contactForm" type="submit"
-                                        class="btn btn-info">Submit
+                                        class="btn btn-info">Apply
                                     Now <i class="icofont-rounded-right"></i></button>
                             </div>
 

@@ -11,7 +11,7 @@ class ControllerEng extends Controller
     public function home()
     {
         $result = \App\Slider::get();
-        return view('welcome')->with('result', $result);
+        return view('welcome')->with('sliders', $result);
     }
 
     public function companyintro()

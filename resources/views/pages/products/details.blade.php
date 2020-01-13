@@ -19,7 +19,7 @@
 
 
                     <img class="details-img" alt="Thumbnail [200x250]"
-                         src="/img/product/{{$result->pro_image}}" width="100%">
+                         src="/images/product/{{$result->pro_image}}" width="100%">
 
                     <hr>
 

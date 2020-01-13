@@ -21,7 +21,7 @@
 
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Title" name="slider_title">
+                        <input type="text" class="form-control" placeholder="Title" name="slider_title" required>
                     </div>
 
 
@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="form-group">
-                        <input type="file" class="form-control" placeholder="Image" name="image">
+                        <input type="file" class="form-control" placeholder="Image" name="slider_image" required>
                     </div>
 
                     <button type="submit" class="btn btn-primary">Save</button>

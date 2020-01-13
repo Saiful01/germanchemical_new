@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 
-use App\Applicant_Table;
 use App\job;
 use App\JobApplicant;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
@@ -12,6 +11,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Validator;
 
 class Controller extends BaseController
 {
@@ -70,17 +70,43 @@ class Controller extends BaseController
     public function jobApplicantInsert(Request $request)
     {
 
+        $validator = Validator::make($request->all(), [
+            'app_name' => 'required',
+            'email' => 'required',
+            'app_max_edu' => 'required',
+            'phone' => 'required',
+            'app_cv' => 'required',
+        ]);
+        if ($validator->fails()) {
+            return back()->with('failed', "All fields required.");
+        }
 
-        //return $request->all();
-        $job_id = $request['id'];
-        $applicant_array = [
-            'app_name' => $request['app_name'],
-            'app_email' => $request['email'],
-            'app_max_edu' => $request['app_max_edu'],
-            'app_phone' => $request['phone'],
-            'app_password' => $request['app_password'],
 
-        ];
+        if ($request->hasFile('app_cv')) {
+
+            $cv = $request->file('app_cv');
+            $cv_name = time() . '.' . $cv->getClientOriginalExtension();
+            $destinationPath = public_path('/cv');
+            $cv->move($destinationPath, $cv_name);
+            $applicant_array = [
+                'app_name' => $request['app_name'],
+                'app_email' => $request['email'],
+                'app_max_edu' => $request['app_max_edu'],
+                'app_phone' => $request['phone'],
+                'app_cv' => $cv_name
+
+            ];
+        } else {
+            $applicant_array = [
+                'app_name' => $request['app_name'],
+                'app_email' => $request['email'],
+                'app_max_edu' => $request['app_max_edu'],
+                'app_phone' => $request['phone']
+
+            ];
+        }
+
+
         try {
             /*$is_exist=JobApplicant::where('app_phone',$request['phone'])->first();
             if(!is_null($is_exist)){
@@ -97,7 +123,9 @@ class Controller extends BaseController
             ];
 
             JobApplicant::create($job_applicant_array);
-            return back()->with('success', "Successfully Applied for this job");
+
+
+            return redirect()->to('/apply')->with('success', "Successfully Applied.");
 
 
         } catch (\Exception $exception) {
