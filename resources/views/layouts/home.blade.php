@@ -127,52 +127,7 @@ Phone: 01717849968
 
             <div class="collapse navbar-collapse" id="navbarCollapse" data-hover="dropdown"
                  data-animations="slideInUp slideInUp slideInUp slideInUp">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                         <a class="nav-link" href="/about">About Us</a>
-                     </li>-->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle-mob" href="/company" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false">Company <i class="icofont-rounded-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/companyintro">Company Introduction</a></li>
-                            <li><a class="dropdown-item" href="/MFChairman">Message From Chairman</a></li>
-                            <li><a class="dropdown-item" href="/prd">RRD</a></li>
-                            <li><a class="dropdown-item" href="/pr">PR</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/products">Products</a>
-                    </li>
-
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/media">Media</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle-mob" href="/" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false">Career <i class="icofont-rounded-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/desired">Desired Qualities of Employee Grid</a>
-                            </li>
-                            <li><a class="dropdown-item" href="/hr">HR Policy</a></li>
-                            <li><a class="dropdown-item" href="/recruitment">Recruitment</a></li>
-                            <li><a class="dropdown-item" href="/information">Information</a></li>
-                            <li><a class="dropdown-item" href="/apply">Apply</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/webmails">Webmail</a>
-                    </li>
-
-                </ul>
+               @include('includes.navbar')
                 <!-- Main Navigation End -->
             </div>
 

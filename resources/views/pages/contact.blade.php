@@ -9,29 +9,47 @@
     <section id="services">
         <div class="container">
 
-            <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                <h3>Contact Us</h3>
+            {{--   <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                   <h3>Contact Us</h3>
 
-            </header>
+               </header>--}}
 
             <div class="row justify-content-between">
-                <div class="col-md-4 col-sm-12 col-lg-4 wow fadeInRight" data-wow-duration="0" data-wow-delay="0s"
+                <div class="col-md-6 col-sm-12 col-lg-6 wow fadeInRight" data-wow-duration="0" data-wow-delay="0s"
                      style="visibility: visible; animation-delay: 0s; animation-name: fadeInRight;">
                     <div class="contact-detail-shadow">
-                        <h4>German Chemical LTD.</h4>
-                        <div class="d-flex align-items-start items">
-                            <i class="icofont-google-map"></i> <span>House no 168, Road 23,DOHS,Mohakhali</span>
+                        <h4 style="font-weight: 600;">German Chemical Limited.</h4>
+                        <div class="align-items-start items">
+                            <h4>Head Office:</h4>
+                            <i class="fa fa-map-signs"></i> House No: 168 (1st Floor), Road No: 23
+                            Mohakhali DOHS,<br> Dhaka-1212, Bangladesh.
+                            <br>
+                            <i class="fa fa-phone"></i> 09606070707
                         </div>
-                        <div class="d-flex align-items-start items">
-                            <i class="icofont-phone"></i> <span> 008827790248</span>
+
+                        <div class="align-items-start items" style="margin-top: 15px">
+                            <h4>Factory:</h4>
+                            <i class="fa fa-map-signs"></i>SFB 07, Ground Floor, Dhaka EPZ
+                            Ashulia, Savar, Dhaka-1349, </br>Bangladesh
+
+
+                            <br>
+                            <i class="fa fa-phone"></i> +88027790248, 7790272
+                            <br>
+                            <i class="fa fa-phone"></i> Fax: +88027790273
                         </div>
-                        <div class="text-nowrap d-flex align-items-start items">
-                            <i class="icofont-email"></i> <a href="#">geremanchemicalltd.com</a>
+
+                        <div class="align-items-start items" style="margin-top: 10px">
+                            <i class="fa fa-envelope"></i> info@germanchemicalsltd.com
+                            <br>
+                            <i class="fa fa-weibo"></i> www. germanchemicalsltd.com
+
+
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7 col-sm-12 col-lg-7 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s"
-                     style="visibility: visible; animation-delay: 0s; animation-name: fadeInLeft;">
+                <div class="col-md-6 col-sm-12 col-lg-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s"
+                     style="visibility: visible; animation-delay: 0s; padding:25px;animation-name: fadeInLeft; background-color: #F4F4F4">
 
                     @if(Session::has('success'))
                         <p class="alert {{ Session::get('alert-class', 'alert-success') }}">{{ Session::get('success') }}</p>
@@ -42,49 +60,57 @@
                     @endif
 
                     <div class="contact-detail-shadow">
-                        <h1 class="heading-main mb-4">
-                            Get in touch
-                        </h1>
 
-                        <form action="/message/store" method="post" enctype='multipart/form-data'
-                              class="col rounded-field">
-                            <div class="form-row mb-4">
-                                <div class="col">
-                                    <input type="text" name="con_name" class="form-control"
-                                           placeholder="Your Name" required>
-                                    <input type="hidden" name="_token" value="{{{ csrf_token() }}}"/>
-                                </div>
+                        <h4 class="heading-main mb-4" style="padding-left: 10px;font-weight: 400">
+                            Contact us
+                        </h4>
+                    </div>
 
-                            </div>
-                            <div class="form-row mb-4">
-
-                                <div class="col">
-                                    <input type="text" name="con_phone" class="form-control"
-                                           placeholder="Phone" required>
-                                </div>
-                                <div class="col">
-                                    <input type="email" name="con_email" class="form-control"
-                                           placeholder="Email" required>
-                                </div>
+                    <form action="/message/store" method="post" enctype='multipart/form-data'
+                          class="col rounded-field">
+                        <div class="form-row mb-4">
+                            <div class="col">
+                                <input type="text" name="con_name" class="form-control"
+                                       placeholder="Your Name" required>
+                                <input type="hidden" name="_token" value="{{{ csrf_token() }}}"/>
                             </div>
 
-                            <div class="form-row mb-4">
-                                <div class="col">
+                        </div>
+                        <div class="form-row mb-4">
+
+                            <div class="col">
+                                <input type="text" name="con_phone" class="form-control"
+                                       placeholder="Phone" required>
+                            </div>
+                            <div class="col">
+                                <input type="email" name="con_email" class="form-control"
+                                       placeholder="Email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row mb-4">
+                            <div class="col">
                                         <textarea rows="7" name="con_msg" placeholder="Message"
                                                   class="form-control" required></textarea>
-                                </div>
                             </div>
-                            <div class="form-row text-center">
-
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <h4>5+5=10</h4>
+                            </div>
+                            <div class="col-md-6">
                                 <button type="submit"
-                                        class="btn btn-info">Send <i
+                                        class="btn btn-info btn-block">Send <i
                                             class="icofont-rounded-right"></i></button>
                             </div>
-                        </form>
 
-                    </div>
+
+                        </div>
+                    </form>
+
                 </div>
             </div>
+        </div>
 
         </div>
     </section>

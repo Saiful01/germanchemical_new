@@ -10,8 +10,8 @@ class ControllerEng extends Controller
 {
     public function home()
     {
-        $result = \App\Slider::get();
-        return view('welcome')->with('sliders', $result);
+         $result = \App\Slider::get();
+        return view('home')->with('sliders', $result);
     }
 
     public function companyintro()
@@ -105,5 +105,11 @@ class ControllerEng extends Controller
     {
 
         return view('pages.webmails');
+    }
+
+    public function career()
+    {
+
+        return view('pages.career');
     }
 }

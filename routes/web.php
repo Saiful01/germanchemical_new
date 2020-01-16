@@ -101,6 +101,7 @@ Route::post('/applicant/job-apply', 'Controller@jobApplicantInsert');
 
 Route::get('/media', 'ControllerEng@media');
 Route::get('/products', 'ControllerEng@products');
+Route::get('/career', 'ControllerEng@career');
 Route::get('/webmails', 'ControllerEng@webmails');
 
 

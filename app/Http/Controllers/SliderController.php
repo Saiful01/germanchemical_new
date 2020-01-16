@@ -37,9 +37,9 @@ class SliderController extends Controller
     public function store(Request $request)
     {
 
-        if ($request->hasFile('image')) {
-           
-            $image = $request->file('image');
+        if ($request->hasFile('slider_image')) {
+
+            $image = $request->file('slider_image');
             $image_name = time() . '.' . $image->getClientOriginalExtension();
             $destinationPath = public_path('/images/slider');
             $image->move($destinationPath, $image_name);
@@ -56,8 +56,9 @@ class SliderController extends Controller
                 'slider_sub_title'=>$request['slider_sub_title']
             ];
         }
-        
-         
+
+
+
 
         try{
             Slider::create($array);
