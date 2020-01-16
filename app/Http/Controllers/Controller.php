@@ -124,7 +124,6 @@ class Controller extends BaseController
 
             JobApplicant::create($job_applicant_array);
 
-
             return redirect()->to('/apply')->with('success', "Successfully Applied.");
 
 
