@@ -1,4 +1,3 @@
-
 @extends('layouts.common')
 
 @section('title','Company Introduction')
@@ -11,62 +10,43 @@
         <div class="container">
 
             <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                <h3>Company Introduction</h3>
+                <h3>About Us</h3>
 
             </header>
-            <div class="row">
+            <div class="row" style="    height: 675px;">
 
                 <div class="col-xl-6 col-lg-6">
 
                     <div class="about-col">
 
-
-                        <h2><span>KNOW ABOUT GERMAN CHEMICALS LIMITED</span></h2>
-
-                        <h5>THE TRUSTED TEXTILE CHEMICAL</h5>
-
-                        <p class="text-justify">Welcome to&nbsp;German Chemicals LTD. is
-                            one of the biggest 100% export oriented Textile Auxiliaries Chemicals industry located
-                            in Dhaka Export Processing Zone (DEPZ), Ganakbari Savar, Dhaka, Bangladesh, established
-                            in 2004 Under Bangladesh Export Processing Zone Authority (BEPZA).
-
+                        <p class="text-justify">
+                            German Chemicals Limited is one of the biggest 100% export-oriented textile auxiliaries
+                            chemicals manufacturing industry in Bangladesh under Bangladesh Export Processing Zones
+                            Authority (BEPZA) located in Dhaka Export Processing Zone (DEPZ).
                             <br>
                             <br>
-                            This profile is envisages the
-                            establishment of a plant for the production of fabric softener in flakes and peril form
-                            with a capacity of 50 metric tons per day. The major use of fabric softener in textile
-                            and dyeing industry as finishing auxiliaries.
-
+                            Providing humble services
+                            to the customers for long 17 (seventeen) years German Chemicals Limited (GCL) has become a
+                            reputed dependable textile auxiliaries chemicals manufacturer and exporter in Bangladesh and
+                            abroad. German Chemicals Limited is Providing world class German textile auxiliaries
+                            chemicals with the full co-operation of Germany. It is Operating its business with highly
+                            qualified management and technical staff members.
                             <br>
                             <br>
-                            The country’s requirement of fabric softener
-                            is largely met through import. The present (2014) demand for fabric softener is
-                            estimated at more than 22,000 metric tons per month. The demand for the product is
-                            projected to reach 5,000 metric tons by the year of 2015.
-
+                            GCL never compromises with its product
+                            qualities and at the same time we are trying our best to make our chemicals cost effective
+                            for our valuable customers. We are committed to supply different types of textile
+                            auxiliary’s chemicals with better quality with minimum cost for pretreatment, dying,
+                            finishing, printing and washing plant. We import raw chemicals from German manufactures and
+                            process in our processing plant as per prescribed formula from the parent manufactures by
+                            maintaining the quality of the processed/finished products exactly the same as the parent
+                            manufactures.
                             <br>
                             <br>
-
-                            The principal raw material required are fatty acid
-                            distillate including other solid and essential acid can be obtain locally while the
-                            other raw materials have to be imported.
-
-
-                            <br>
-                            <br>
-                            The project cost is estimated as BDT 396.66 million. It
-                            will be financed with a debt to equity ratio of 33:67. Thus, equity requirement for the
-                            project is BDT 265.74 million. BDT 246.74 million out total equity has already been
-                            invested for land purchase, project design, feasibility report preparation and company
-                            formation. Total debt requirement of the projects is BDT 130.93 Million.
-
-                            <br>
-
-                            The project can create employment for 59 persons. The
-                            establishment of such factory will have a foreign exchange earnings and saving effect to
-                            the country by substituting the current imports. The project also create backward
-                            linkage with the chemical manufacturing sub sector and also generates income for the
-                            government in terms of wage earning of a plant for the production of chemicals.
+                            Our parent manufacturer frequently checks and ensure the quality of our
+                            products. Our expertise team is experienced with international corporate backgrounds with
+                            proven service record. We are highly professional, dynamic and ready to work round the clock
+                            to make our customers delighted.
                         </p>
 
 

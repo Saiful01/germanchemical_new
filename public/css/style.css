@@ -133,6 +133,7 @@ h6 {
     right: 0;
     transition: all 0.5s;
     z-index: 997;
+    background: rgba(111, 107, 107, 0.21);
 }
 
 #header.header-scrolled {
@@ -1664,7 +1665,7 @@ a:hover, a:active, a:focus {
 }
 #header #logo img {
     margin-top: -15px;
-    width: 175px;
+    width: 155px;
 }
 
 #contact-background{
@@ -1689,4 +1690,10 @@ a:hover, a:active, a:focus {
 
 .about-col{
     height: 475px;
+}
+
+#services {
+    background: #fff;
+    background-size: cover;
+    padding: 30px 0 40px 0;
 }
