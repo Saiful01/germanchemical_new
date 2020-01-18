@@ -8,8 +8,8 @@
 
     <section id="contact-background" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="container text-center">
-            <h3>We are German Chemical Limited</h3>
-            <p>Beyond your desired Expectations</p>
+            <h3>WE ARE GERMAN CHEMICALS LIMITED</h3>
+            <p>BEYOND YOUR DESIRED EXPECTATION</p>
         </div>
     </section>
 
@@ -26,7 +26,7 @@
                         <h2 class="title"><a href="#">It's rewarding</a></h2>
                         <p class="text-justify">
                             We believe it is important to make every member of our team feel heard, appreciated and
-                            rewarded, and we are committed to rewarding not just through our team development programs
+                            rewarded, and we are committed to reward not just through our team development programs
                             within the company but also by providing each and every member with a fair salary.
                         </p>
                     </div>

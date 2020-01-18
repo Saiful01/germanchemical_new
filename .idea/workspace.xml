@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="158877c3-dc95-46dd-b505-cf34d5556c50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/apply/view.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/germanchemical.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/germanchemical.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContacController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContacController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/1579334731.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/1579334822.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/product/1578918977.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/product/1578918977.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/contac/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/contac/view.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/common.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/common.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/career.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/career.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/products/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/products/products.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/company/MFChairman.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/company/MFChairman.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +185,7 @@
       <workItem from="1579090955323" duration="618000" />
       <workItem from="1579160550794" duration="7526000" />
       <workItem from="1579170300354" duration="15644000" />
+      <workItem from="1579337567977" duration="685000" />
     </task>
     <servers />
   </component>
