@@ -302,14 +302,33 @@
             </header>
 
             <div class="owl-carousel clients-carousel">
-                <img src="img/clients/client-1.png" alt="">
-                <img src="img/clients/client-2.png" alt="">
-                <img src="img/clients/client-3.png" alt="">
-                <img src="img/clients/client-4.png" alt="">
-                <img src="img/clients/client-5.png" alt="">
-                <img src="img/clients/client-6.png" alt="">
-                <img src="img/clients/client-7.png" alt="">
-                <img src="img/clients/client-8.png" alt="">
+                <img src="images/clients/abs.png" alt="">
+                <img src="images/clients/apex.png" alt="">
+                <img src="images/clients/asian.jpg" alt="">
+                <img src="images/clients/bdl.png" alt="">
+                <img src="images/clients/beximco.png" alt="">
+                <img src="images/clients/colormaster.png" alt="">
+                <img src="images/clients/crown.png" alt="">
+                <img src="images/clients/doree.png" alt="">
+                <img src="images/clients/givensee.png" alt="">
+                <img src="images/clients/grameen.png" alt="">
+                <img src="images/clients/hossen.jpg" alt="">
+                <img src="images/clients/bdl.png" alt="">
+                <img src="images/clients/beximco.png" alt="">
+                <img src="images/clients/IL.png" alt="">
+                <img src="images/clients/jaya.png" alt="">
+                <img src="images/clients/nz.png" alt="">
+                <img src="images/clients/purbani.png" alt="">
+                <img src="images/clients/opex.png" alt="">
+                <img src="images/clients/s_chaina.png" alt="">
+                <img src="images/clients/viyelletex.png" alt="">
+                <img src="images/clients/wisdon.png" alt="">
+                <img src="images/clients/young.png" alt="">
+                <img src="images/clients/kds.gif" alt="">
+                <img src="images/clients/gms.gif" alt="">
+                <img src="images/clients/padma.gpeg" alt="">
+                <img src="images/clients/khusira.gif" alt="">
+
             </div>
 
         </div>

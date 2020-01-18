@@ -134,11 +134,11 @@
                             FILL UP THE FORM
                         </h1>
 
-                        <form action="/message/store" method="post" enctype='multipart/form-data'
+                        <form action="/apply/store" method="post" enctype='multipart/form-data'
                               class="col rounded-field">
                             <div class="form-row mb-4">
                                 <div class="col">
-                                    <input type="text" name="con_name" class="form-control"
+                                    <input type="text" name="apply_name" class="form-control"
                                            placeholder="Your Name" required>
                                     <input type="hidden" name="_token" value="{{{ csrf_token() }}}"/>
                                 </div>
@@ -147,20 +147,38 @@
                             <div class="form-row mb-4">
 
                                 <div class="col">
-                                    <input type="text" name="con_phone" class="form-control"
+                                    <input type="text" name="apply_phone" class="form-control"
                                            placeholder="Phone" required>
                                 </div>
                                 <div class="col">
-                                    <input type="email" name="con_email" class="form-control"
+                                    <input type="email" name="apply_email" class="form-control"
                                            placeholder="Email" required>
                                 </div>
                             </div>
 
                             <div class="form-row mb-4">
-                                <div class="col">
-                                        <textarea rows="7" name="con_msg" placeholder="Message"
-                                                  class="form-control" required></textarea>
-                                </div>
+                                <input type="email" name="apply_nid" class="form-control"
+                                       placeholder="Your NID number" required>
+                            </div>
+                            <div class="form-row mb-4">
+                                <select class="form-control" name="apply_interest" required>
+                                    <option value="">---Select your intereseted field---</option>
+                                    <option value="Human Recourses">Human Recourses</option>
+                                    <option value="Audit &amp; Compliance"> Audit &amp; Compliance</option>
+                                    <option value="Legal Affairs">Legal Affairs</option>
+                                    <option value="Finance &amp; Accounts">Finance &amp; Accounts</option>
+                                    <option value="Information &amp; Technology">Information &amp; Technology</option>
+                                    <option value="Administration">Administration</option>
+                                    <option value="Sales &amp; Marketing">Sales &amp; Marketing</option>
+                                    <option value="Construction &amp; Engineering">Construction &amp; Engineering</option>
+                                    <option value="Customer Service/After Sales">Customer Service/After Sales</option>
+                                    <option value="Supply Chain/Procurement">Supply Chain/Procurement</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                            </div>
+                            <div class="form-row mb-4">
+                                <input type="file" name="apply_cv" class="form-control"
+                                       placeholder="" required>
                             </div>
                             <div class="form-row text-center">
 

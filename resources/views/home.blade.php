@@ -83,7 +83,8 @@
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2>{{$sliders[0]->slider_title}}</h2>
-                                <p>{{$sliders[0]->slider_sub_title}}</p>
+                                <p style="font-weight: 600;
+    font-size: 26px;">{{$sliders[0]->slider_sub_title}}</p>
 
                             </div>
                         </div>
@@ -141,9 +142,9 @@
         <div class="container">
 
             <header class="section-header">
-                <h3><span style="font-size: 45px;color: #FF4223">13</span> Year Jourey </h3>
+                <h3><span style="font-size: 45px;color: #FF4223">17</span> Years of Journey </h3>
               {{--  <p class="text-center"><img src="img/year.png" width="300"/></p>--}}
-                <p style="text-align: left">Having started a venture 13 years ago, today I am privileged to be a
+                <p style="text-align: left">Having started a venture 17 years ago, today I am privileged to be a
                     founding member of one of the
                     most competitive chemical company with emphasis on efficiency in operations, reliability for
                     customers and trust on sustainable development.For us, sustainability means aligning economic
@@ -276,14 +277,32 @@
             </header>
 
             <div class="owl-carousel clients-carousel">
-                <img src="img/clients/client-1.png" alt="">
-                <img src="img/clients/client-2.png" alt="">
-                <img src="img/clients/client-3.png" alt="">
-                <img src="img/clients/client-4.png" alt="">
-                <img src="img/clients/client-5.png" alt="">
-                <img src="img/clients/client-6.png" alt="">
-                <img src="img/clients/client-7.png" alt="">
-                <img src="img/clients/client-8.png" alt="">
+                <img style ="height: 75px;width: 100px"src="images/clients/abs.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/apex.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/asian.jpg" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/bdl.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/beximco.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/colormaster.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/crown.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/doree.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/givensee.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/grameen.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/hossen.jpg" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/bdl.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/beximco.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/IL.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/jaya.png" alt="">
+                <img style ="height: 75px;width: 100px"src="images/clients/nz.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/purbani.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/opex.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/s_chaina.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/viyelletex.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/wisdon.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/young.png" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/kds.gif" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/gms.gif" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/padma.gpeg" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/khusira.gif" alt="">
             </div>
 
         </div>

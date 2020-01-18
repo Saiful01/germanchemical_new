@@ -24,35 +24,35 @@
 
                 </a>
             </div>
-            <div class="col-md-3">
-                <a href="/job/view" class="btn btn-secondary btn-big btn-block">
-                    Jobs
+{{--            <div class="col-md-3">--}}
+{{--                <a href="/job/view" class="btn btn-secondary btn-big btn-block">--}}
+{{--                    Jobs--}}
 
-                </a>
-            </div>
+{{--                </a>--}}
+{{--            </div>--}}
             <div class="col-md-3">
-                <a href="/applicant/view" class="btn btn-success btn-big btn-block">
+                <a href="/apply/view" class="btn btn-success btn-big btn-block">
                     Applicants
 
                 </a>
             </div>
 
 
-            <div class="col-md-3">
-                <a href="/jobapplicant/show" class="btn btn-info btn-big btn-block">
-                    Job Applicants
+{{--            <div class="col-md-3">--}}
+{{--                <a href="/jobapplicant/show" class="btn btn-info btn-big btn-block">--}}
+{{--                    Job Applicants--}}
 
-                </a>
-            </div>
+{{--                </a>--}}
+{{--            </div>--}}
 
-            <div class="col-md-3">
-                <a href="/employee/view" class="btn btn-danger btn-big btn-block">
-                    Employees
+{{--            <div class="col-md-3">--}}
+{{--                <a href="/employee/view" class="btn btn-danger btn-big btn-block">--}}
+{{--                    Employees--}}
 
-                </a>
-            </div>
+{{--                </a>--}}
+{{--            </div>--}}
             <div class="col-md-3">
-                <a href="/product/view" class="btn btn-success btn-big btn-block">
+                <a href="/product/view" class="btn btn-danger btn-big btn-block">
                     Products
 
                 </a>
@@ -65,12 +65,12 @@
                 </a>
             </div>
 
-            <div class="col-md-3">
-                <a href="/contact/view" class="btn btn-danger btn-big btn-block">
-                    Latest Message
+{{--            <div class="col-md-3">--}}
+{{--                <a href="/contact/view" class="btn btn-danger btn-big btn-block">--}}
+{{--                    Latest Message--}}
 
-                </a>
-            </div>
+{{--                </a>--}}
+{{--            </div>--}}
         </div>
     </div>
 

@@ -42,7 +42,7 @@ class ContacController extends Controller
        }catch(\Exception $exception){
 
            return back()->with('failed',$exception->getMessage());
-     
+
        }
     }
 
@@ -86,8 +86,16 @@ class ContacController extends Controller
      * @param  \App\Contac  $contac
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Contac $contac)
+    public function destroy($id)
     {
-        //
+        try{
+            Contac::where('con_id',$id)->delete();
+
+            return back()->with('success',"Successfylly deleted");
+        }catch(\Exception $exception){
+
+            return back()->with('failed',$exception->getMessage());
+
+        }
     }
 }

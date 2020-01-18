@@ -15,6 +15,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+
 a {
     color: #FF4223;
     transition: 0.5s;
@@ -1696,4 +1697,17 @@ a:hover, a:active, a:focus {
     background: #fff;
     background-size: cover;
     padding: 30px 0 40px 0;
+}
+#footer {
+
+    padding: 0px 0px 17px 0px;
+}
+#header {
+    background: white;
+}
+.nav-menu a {
+    color: black;
+}
+p {
+    text-align: justify;
 }

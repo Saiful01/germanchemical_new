@@ -76,6 +76,11 @@ Route::post('/contac/store', 'ContacController@store');
 Route::get('/contact/view', 'ContacController@show');
 Route::get('/contac/delete/{id}', 'ContacController@destroy');
 
+// admin section Apply
+Route::post('/apply/store', 'Controller@store');
+Route::get('/apply/view', 'Controller@lol');
+Route::get('/apply/delete/{id}', 'Controller@destroy');
+
 
 //Public
 
@@ -95,6 +100,7 @@ Route::get('/information', 'ControllerEng@information');
 
 
 Route::get('/apply', 'Controller@apply');
+
 Route::get('/job/job-detail/{id}', 'Controller@jobDetail');
 Route::get('/job/job-apply/{id}', 'Controller@jobApply');
 Route::post('/applicant/job-apply', 'Controller@jobApplicantInsert');

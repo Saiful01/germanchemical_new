@@ -25,6 +25,7 @@
                     <th> Email</th>
                     <th> phone</th>
                     <th> message</th>
+                    <th> Delete</th>
                 </tr>
                 </thead>
 
@@ -36,6 +37,7 @@
                         <td>{{$res->con_email}} </td>
                         <td>{{$res->con_phone}}</td>
                         <td>{{$res->con_msg}}</td>
+                        <td><a class="btn btn-danger" href="/contac/delete/{{$res->con_id}}">Delete</a></td>
 
                     </tr>
 

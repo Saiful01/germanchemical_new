@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 
+use App\applys;
 use App\job;
 use App\JobApplicant;
+use Exception;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -27,7 +29,7 @@ class Controller extends BaseController
             mail($email, "Mail from German Chemical Website", $msg);
 
             return back()->with('success', "Successfully Mail Send");
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
             return back()->with('failed', "There is a problem");
         }
         // the message
@@ -71,37 +73,41 @@ class Controller extends BaseController
     {
 
         $validator = Validator::make($request->all(), [
-            'app_name' => 'required',
-            'email' => 'required',
-            'app_max_edu' => 'required',
-            'phone' => 'required',
-            'app_cv' => 'required',
+            'apply_name' => 'required',
+            'apply_email' => 'required',
+            'apply_phone' => 'required',
+            'apply_nid' => 'required',
+            'apply_cv' => 'required',
+            'apply_interest' => 'required',
+
         ]);
         if ($validator->fails()) {
             return back()->with('failed', "All fields required.");
         }
 
 
-        if ($request->hasFile('app_cv')) {
+        if ($request->hasFile('apply_cv')) {
 
-            $cv = $request->file('app_cv');
+            $cv = $request->file('apply_cv');
             $cv_name = time() . '.' . $cv->getClientOriginalExtension();
             $destinationPath = public_path('/cv');
             $cv->move($destinationPath, $cv_name);
             $applicant_array = [
-                'app_name' => $request['app_name'],
-                'app_email' => $request['email'],
-                'app_max_edu' => $request['app_max_edu'],
-                'app_phone' => $request['phone'],
-                'app_cv' => $cv_name
+                'apply_name' => $request['apply_name'],
+                'apply_email' => $request['apply_email'],
+                'apply_phone' => $request['apply_phone'],
+                'apply_nid' => $request['apply_nid'],
+                'apply_interest' => $request['apply_interest'],
+                'apply_cv' => $cv_name
 
             ];
         } else {
             $applicant_array = [
-                'app_name' => $request['app_name'],
-                'app_email' => $request['email'],
-                'app_max_edu' => $request['app_max_edu'],
-                'app_phone' => $request['phone']
+                'apply_name' => $request['apply_name'],
+                'apply_email' => $request['apply_email'],
+                'apply_phone' => $request['apply_phone'],
+                'apply_nid' => $request['apply_nid'],
+                'apply_interest' => $request['apply_interest']
 
             ];
         }
@@ -113,12 +119,12 @@ class Controller extends BaseController
                 return back()->with('failed', "Already Applied for this job");
             }*/
 
-            $applicant_id = DB::table('applicant_tables')->insertGetId($applicant_array);
+            $applicant_id = DB::table('apply_tables')->insertGetId($applicant_array);
 
             //Todo::insert into JobApplicant Table
             $job_applicant_array = [
                 'job_id' => $request['id'],
-                'applicant_id' => $applicant_id
+                'apply_id' => $applicant_id
 
             ];
 
@@ -127,7 +133,7 @@ class Controller extends BaseController
             return redirect()->to('/apply')->with('success', "Successfully Applied.");
 
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             //return back()->with('failed', "There is an Error, Try again later");
             return back()->with('failed', $exception->getMessage());
@@ -135,6 +141,85 @@ class Controller extends BaseController
         }
 
 
+    }
+
+    public function store(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'apply_name' => 'required',
+            'apply_email' => 'required',
+            'apply_phone' => 'required',
+            'apply_nid' => 'required',
+            'apply_cv' => 'required',
+            'apply_interest' => 'required',
+
+        ]);
+        if ($validator->fails()) {
+            return back()->with('failed', "All fields required.");
+        }
+
+
+        if ($request->hasFile('apply_cv')) {
+
+            $cv = $request->file('apply_cv');
+            $cv_name = time() . '.' . $cv->getClientOriginalExtension();
+            $destinationPath = public_path('/cv');
+            $cv->move($destinationPath, $cv_name);
+            $array = [
+                'apply_name' => $request['apply_name'],
+                'apply_email' => $request['apply_email'],
+                'apply_phone' => $request['apply_phone'],
+                'apply_nid' => $request['apply_nid'],
+                'apply_interest' => $request['apply_interest'],
+                'apply_cv' => $cv_name
+
+            ];
+        } else {
+            $array = [
+                'apply_name' => $request['apply_name'],
+                'apply_email' => $request['apply_email'],
+                'apply_phone' => $request['apply_phone'],
+                'apply_nid' => $request['apply_nid'],
+                'apply_interest' => $request['apply_interest']
+
+            ];
+
+        }
+        try {
+            //applys::create($array);
+            DB::table('applys')->insert($array);
+
+            return back()->with('success', "Successfylly Saved");
+        } catch (Exception $exception) {
+
+            //return $exception->getMessage();
+            return back()->with('failed', $exception->getMessage());
+
+        }
+
+
+    }
+
+    public function lol()
+    {
+
+        return view('admin.apply.view')
+            ->with('result', DB::table('applys')->orderBy('apply_id', 'DESC')->get());
+    }
+
+    public function destroy($id)
+    {
+        //return $id;
+        try {
+            DB::table('applys')->where('apply_id', $id)->delete();
+
+
+            return back()->with('success', "Successfylly deleted");
+        } catch (Exception $exception) {
+
+            return back()->with('failed', $exception->getMessage());
+
+        }
     }
 
 }
