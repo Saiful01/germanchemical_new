@@ -82,7 +82,7 @@
                         </div>
                         <div class="carousel-container">
                             <div class="carousel-content">
-                                <h2>{{$sliders[0]->slider_title}}</h2>
+                                <h2 style="font-size:50px">{{$sliders[0]->slider_title}}</h2>
                                 <p>{{$sliders[0]->slider_sub_title}}</p>
 
                             </div>
@@ -97,7 +97,7 @@
                         </div>
                         <div class="carousel-container">
                             <div class="carousel-content">
-                                <h2>{{$sliders[$i]->slider_title}}</h2>
+                                <h2 style="font-size:50px">{{$sliders[$i]->slider_title}}</h2>
                                 <p>{{$sliders[$i]->slider_sub_title}}</p>
 
                             </div>
@@ -203,12 +203,12 @@
                 </div>
 
                 <div class="col-lg-3 col-6 text-center">
-                    <span data-toggle="counter-up">1,364</span>
+                    <span data-toggle="counter-up">42,432</span>
                     <p>Hours Of Support</p>
                 </div>
 
                 <div class="col-lg-3 col-6 text-center">
-                    <span data-toggle="counter-up">18</span>
+                    <span data-toggle="counter-up">55</span>
                     <p>Hard Workers</p>
                 </div>
 
@@ -257,7 +257,7 @@
         <div class="container text-center">
             <h3>Interested in working with German Chemical?</h3>
             <p>We don’t just manage suppliers, we micro-manage them. We have a consultative, personalized approach</p>
-            <a class="cta-btn" href="/contact">Get In Touch</a>
+            <a class="cta-btn" href="/career">Get In Touch</a>
         </div>
     </section>
     <!--==========================

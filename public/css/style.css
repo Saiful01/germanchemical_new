@@ -5,6 +5,7 @@
   License: https://bootstrapmade.com/license/
 */
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -45,6 +46,7 @@ h6 {
     padding: 0;
 }
 
+
 /* Back to top button */
 
 .back-to-top {
@@ -68,6 +70,7 @@ h6 {
     padding-top: 12px;
     color: #fff;
 }
+
 
 /* Prelaoder */
 
@@ -101,7 +104,6 @@ h6 {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -113,12 +115,12 @@ h6 {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
 }
+
 
 /*--------------------------------------------------------------
 # Header
@@ -168,6 +170,7 @@ h6 {
     padding: 0;
     margin: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -245,6 +248,7 @@ h6 {
     overflow: hidden;
 }
 
+
 /*
 
 #intro .carousel-fade .carousel-inner .carousel-item {
@@ -309,9 +313,11 @@ h6 {
 }
 */
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 
 /* Nav Menu Essentials */
 
@@ -335,12 +341,12 @@ h6 {
     white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
     float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
     display: block;
 }
 
@@ -352,6 +358,7 @@ h6 {
 .nav-menu ul li {
     min-width: 180px;
 }
+
 
 /* Nav Menu Arrows */
 
@@ -372,12 +379,14 @@ h6 {
     content: "\f105";
 }
 
+
 /* Nav Meu Container */
 
 #nav-menu-container {
     float: right;
     margin: 0;
 }
+
 
 /* Nav Meu Styling */
 
@@ -393,12 +402,12 @@ h6 {
     outline: none;
 }
 
-.nav-menu li:hover > a,
-.nav-menu > .menu-active > a {
+.nav-menu li:hover>a,
+.nav-menu>.menu-active>a {
     color: #FF4223;
 }
 
-.nav-menu > li {
+.nav-menu>li {
     margin-left: 10px;
 }
 
@@ -422,13 +431,14 @@ h6 {
     text-transform: none;
 }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover>a {
     color: #FF4223;
 }
 
 .nav-menu ul ul {
     margin: 0;
 }
+
 
 /* Mobile Nav Toggle */
 
@@ -450,6 +460,7 @@ h6 {
 #mobile-nav-toggle i {
     color: #fff;
 }
+
 
 /* Mobile Nav Styling */
 
@@ -535,6 +546,7 @@ h6 {
     display: none;
 }
 
+
 /* Mobile Nav body classes */
 
 body.mobile-nav-active {
@@ -549,9 +561,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+
 
 /* Sections Header
 --------------------------------*/
@@ -594,12 +608,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #333;
 }
 
+
 /* Section with background
 --------------------------------*/
 
 .section-bg {
     background: #f7f7f7;
 }
+
 
 /* Featured Services Section
 --------------------------------*/
@@ -643,6 +659,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
     margin-bottom: 0;
 }
+
 
 /* About Us Section
 --------------------------------*/
@@ -740,6 +757,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 0 20px 20px 20px;
 }
 
+
 /* Services Section
 --------------------------------*/
 
@@ -786,6 +804,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 0;
 }
 
+
 /* Call To Action Section
 --------------------------------*/
 
@@ -825,6 +844,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 2px solid #FF4223;
 }
 
+
 /* Call To Action Section
 --------------------------------*/
 
@@ -856,6 +876,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: left;
     transition: .9s;
 }
+
 
 /* Facts Section
 --------------------------------*/
@@ -903,6 +924,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     padding-top: 30px;
 }
+
 
 /* Portfolio Section
 --------------------------------*/
@@ -1056,6 +1078,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-transform: uppercase;
 }
 
+
 /* Clients Section
 --------------------------------*/
 
@@ -1065,7 +1088,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #clients img {
     max-width: 100%;
-    opacity: 0.5;
+    opacity: 1;
     transition: 0.3s;
     padding: 15px 0;
 }
@@ -1092,6 +1115,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #clients .owl-dot.active {
     background-color: #FF4223;
 }
+
 
 /* Testimonials Section
 --------------------------------*/
@@ -1166,6 +1190,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .testimonials .owl-dot.active {
     background-color: #FF4223;
 }
+
 
 /* Team Section
 --------------------------------*/
@@ -1251,6 +1276,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 18px;
     margin: 0 2px;
 }
+
 
 /* Contact Section
 --------------------------------*/
@@ -1353,6 +1379,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
     background: #13a456;
 }
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -1517,6 +1544,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #ddd;
 }
 
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1527,7 +1555,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     #contact .contact-email {
         padding: 20px 0;
     }
-
     #contact .contact-phone {
         border-left: 1px solid #ddd;
         border-right: 1px solid #ddd;
@@ -1544,16 +1571,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     #header #logo {
         padding-left: 60px;
     }
-
     #intro p {
         width: 60%;
     }
-
     #intro .carousel-control-prev,
     #intro .carousel-control-next {
         width: 5%;
     }
-
     #nav-menu-container {
         padding-right: 60px;
     }
@@ -1563,23 +1587,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     .back-to-top {
         bottom: 15px;
     }
-
     #header #logo h1 {
         font-size: 28px;
     }
-
     #header #logo img {
         max-height: 40px;
     }
-
     #intro h2 {
         font-size: 28px;
     }
-
     #nav-menu-container {
         display: none;
     }
-
     #mobile-nav-toggle {
         display: inline;
     }
@@ -1610,7 +1629,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     bottom: 0;
     width: 100%
-
 }
 
 #main {
@@ -1639,7 +1657,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #ff1105;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
     color: #ffffff;
     outline: none;
     text-decoration: none;
@@ -1663,32 +1683,33 @@ a:hover, a:active, a:focus {
     font-size: 48px;
     font-weight: 700;
 }
+
 #header #logo img {
     margin-top: -15px;
     width: 155px;
 }
 
-#contact-background{
+#contact-background {
     background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/we_are_gcl.jpg) fixed center center;
     background-size: cover;
     padding: 100px 0;
     visibility: visible;
     animation-name: fadeIn;
     margin-top: -3px;
-
 }
-#contact-background h3{
+
+#contact-background h3 {
     color: white;
     font-weight: 600;
     font-size: 40px;
 }
-#contact-background p{
+
+#contact-background p {
     color: #fff;
     font-size: 30px;
-
 }
 
-.about-col{
+.about-col {
     height: 475px;
 }
 

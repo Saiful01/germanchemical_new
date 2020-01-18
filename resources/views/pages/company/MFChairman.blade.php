@@ -37,12 +37,12 @@
 
                     </p>
 
-                    <img class=""
+                    <!-- <img class=""
                          src="/img/MD-sir-sign.png" alt=""
-                         width="150px">
+                         width="150px"> -->
 
 
-                    <p><strong>Chairman<br>
+                    <p><strong>Md. Badiul Alam <br>Chairman<br>
                             German Chemicals Limited</strong></p>
                     <p></p>
 
