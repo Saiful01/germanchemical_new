@@ -48,11 +48,11 @@
 
                         <div class="align-items-start items" style="margin-top: 10px">
                             <div class="social-links">
-                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="google-plus"><i class="fa fa-youtube"></i></a>
-                                <a href="/contact" class="linkedin"><i class="fa fa-envelope"></i></a>
+                                <a href="#" class="twitter btn btn-info"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="facebook btn btn-info"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="instagram btn btn-info"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="google-plus btn btn-info" ><i class="fa fa-youtube"></i></a>
+                                <a href="/contact" class="linkedin btn btn-info"><i class="fa fa-envelope"></i></a>
                             </div>
 
                         </div>
@@ -122,33 +122,60 @@
             </div>
         </div>
 
-        </div>
+
     </section>
 
     <!-- Google Map Start -->
     <section class="map-bg">
+        <div class="row">
+          <div class="col-md-6">
+              <h1 style="text-align: center" >Head office</h1>
 
-        <div class="mapouter">
-            <div class="gmap_canvas">
-                <iframe width="100%" height="400" id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=House%20no%20168%2C%20Road%2023%2CDOHS%2CMohakhali&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                <a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/">buy nord vpn</a></div>
-            <style>.mapouter {
-                    position: relative;
-                    text-align: right;
-                    height: 400px;
-                    width: 100%;
-                }
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="100%" height="400" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=House%20no%20168%2C%20Road%2023%2CDOHS%2CMohakhali&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/">buy nord vpn</a></div>
+        <style>.mapouter {
+                position: relative;
+                text-align: right;
+                height: 400px;
+                width: 100%;
+            }
 
-                .gmap_canvas {
-                    overflow: hidden;
-                    background: none !important;
-                    height: 400px;
-                    width: 100%
-                }</style>
-        </div>
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 400px;
+                width: 100%
+            }</style>
+    </div>
+</div>
+            <div class="col-md-6">
+                <h1 style="text-align: center">Factory</h1>
 
-    </section>
-    <!-- Google Map Start -->
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%20Ground%20Floor%2C%20Dhaka%20EPZ%20Ashulia%2C%20Savar%2C%20Dhaka-1349%2C%20Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+        <style>.mapouter {
+                position: relative;
+                text-align: right;
+                height: 400px;
+                width: 100%;
+            }
+
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 400px;
+                width: 100%
+            }</style>
+    </div>
+</div>
+</div>
+</div>
+
+</section>
+<!-- Google Map Start -->
 @endsection

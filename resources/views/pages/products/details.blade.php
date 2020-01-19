@@ -25,7 +25,7 @@
 
 
                     <h2>{{$result->pro_title}}</h2>
-                    <p>
+                    <p style="line-spacing:-5px">
                         {!!  $result->pro_details !!}
                     </p>
                 <!-- <p>Price: {{$result->pro_price}} tk</p> -->

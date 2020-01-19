@@ -92,7 +92,7 @@
                     </div>
                 @endif
 
-                @for($i=count($sliders)-1;$i>=0;$i--)
+                @for($i=count($sliders)-1;$i>=1;$i--)
                     <div class="carousel-item">
                         <div class="carousel-background"><img src="/images/slider/{{$sliders[$i]->slider_image}}"
                                                               alt="">
@@ -100,7 +100,8 @@
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 style="font-size:50px">{{$sliders[$i]->slider_title}}</h2>
-                                <p>{{$sliders[$i]->slider_sub_title}}</p>
+                                <p style="font-weight: 600;
+                                font-size: 16px;">{{$sliders[$i]->slider_sub_title}}</p>
 
                             </div>
                         </div>
@@ -246,6 +247,18 @@
                         <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
                     </p>
                 </div>
+                <div class="testimonial-item">
+                    <img src="img/Photo.jpg" class="testimonial-img" alt="">
+                    <h3>Saiful</h3>
+                    <!-- <h4>Ceo &amp; Founder</h4>-->
+                    <p>
+                        <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                        German Chemicals Limited have been able to service a broad range of research needs while always
+                        remaining flexible, cost effective, and most importantly lightning fast. They are a trusted
+                        partner for us. Keep up the good work!
+                        <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                    </p>
+                </div>
 
             </div>
 
@@ -278,32 +291,32 @@
             </header>
 
             <div class="owl-carousel clients-carousel">
-                <img style ="height: 75px;width: 100px"src="images/clients/abs.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/apex.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/asian.jpg" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/bdl.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/beximco.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/colormaster.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/crown.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/doree.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/givensee.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/grameen.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/hossen.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/bdl.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/beximco.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/IL.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/jaya.png" alt="">
-                <img style ="height: 75px;width: 100px"src="images/clients/nz.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/purbani.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/opex.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/s_chaina.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/viyelletex.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/wisdon.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/young.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/kds.gif" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/gms.gif" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/padma.gpeg" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/khusira.gif" alt="">
+                <img style ="height: 75px;width: 150px"src="images/clients/abs.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/apex.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/asian.jpg" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/bdl.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/beximco.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/colormaster.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/crown.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/doree.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/givensee.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/grameen.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/hossen.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/bdl.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/beximco.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/IL.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/jaya.png" alt="">
+                <img style ="height: 75px;width: 150px"src="images/clients/nz.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/purbani.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/opex.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/s_chaina.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/viyelletex.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/wisdon.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/young.png" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/kds.gif" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/gms.gif" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/padma.gpeg" alt="">
+                <img style ="height: 75px;width: 150px" src="images/clients/khusira.gif" alt="">
             </div>
 
         </div>
