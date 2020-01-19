@@ -9,7 +9,7 @@
     <section id="contact-background" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="container text-center">
             <h3>WE ARE GERMAN CHEMICALS LIMITED</h3>
-            <p>BEYOND YOUR DESIRED EXPECTATION</p>
+            <p style="text-align: center;">BEYOND YOUR DESIRED EXPECTATION</p>
         </div>
     </section>
 

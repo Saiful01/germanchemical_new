@@ -58,7 +58,7 @@
 
         <div id="logo" class="pull-left">
             <!-- <h1><a href="#intro" class="scrollto"></a></h1>-->
-            <a href="#intro"><img src="/img/logo.png" alt="" title=""/></a>
+            <a href="/"><img src="/img/logo.png" alt="" title=""/></a>
         </div>
 
         @include('includes.navbar')
@@ -85,8 +85,7 @@
                                 <h2>{{$sliders[0]->slider_title}}</h2>
                                 <p style="font-weight: 600;
     font-size: 26px;">{{$sliders[0]->slider_sub_title}}</p>
-                                <h2 style="font-size:50px">{{$sliders[0]->slider_title}}</h2>
-                                <p>{{$sliders[0]->slider_sub_title}}</p>
+
 
                             </div>
                         </div>
@@ -166,7 +165,7 @@
                     <div class="col-md-3 mx-auto">
                         <div class="testimonial-item">
                             <img src="img/chairman.png" class="testimonial-img" alt="">
-                            <h3>MD B.Alam</h3>
+                            <h3>MD Badiul Alam</h3>
                             <h4>Founder & Chairman</h4>
 
                         </div>
@@ -258,7 +257,7 @@
     ============================-->
     <section id="call-to-action" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="container text-center">
-            <h3>Interested in working with German Chemical?</h3>
+            <h3>Interested in working with German Chemicals Limited?</h3>
             <p>We don’t just manage suppliers, we micro-manage them. We have a consultative, personalized approach</p>
             <a class="cta-btn" href="/career">Get In Touch</a>
         </div>
@@ -289,7 +288,7 @@
                 <img style ="height: 75px;width: 100px" src="images/clients/doree.png" alt="">
                 <img style ="height: 75px;width: 100px" src="images/clients/givensee.png" alt="">
                 <img style ="height: 75px;width: 100px" src="images/clients/grameen.png" alt="">
-                <img style ="height: 75px;width: 100px" src="images/clients/hossen.jpg" alt="">
+                <img style ="height: 75px;width: 100px" src="images/clients/hossen.png" alt="">
                 <img style ="height: 75px;width: 100px" src="images/clients/bdl.png" alt="">
                 <img style ="height: 75px;width: 100px" src="images/clients/beximco.png" alt="">
                 <img style ="height: 75px;width: 100px" src="images/clients/IL.png" alt="">
