@@ -84,7 +84,7 @@
                             <div class="carousel-content">
                                 <h2>{{$sliders[0]->slider_title}}</h2>
                                 <p style="font-weight: 600;
-    font-size: 26px;">{{$sliders[0]->slider_sub_title}}</p>
+                                font-size: 16px;" class="text-center">{{$sliders[0]->slider_sub_title}}</p>
 
 
                             </div>
@@ -101,7 +101,7 @@
                             <div class="carousel-content">
                                 <h2 style="font-size:50px">{{$sliders[$i]->slider_title}}</h2>
                                 <p style="font-weight: 600;
-                                font-size: 16px;">{{$sliders[$i]->slider_sub_title}}</p>
+                                font-size: 16px;" class="text-center">{{$sliders[$i]->slider_sub_title}}</p>
 
                             </div>
                         </div>
@@ -146,7 +146,7 @@
             <header class="section-header">
                 <h3><span style="font-size: 45px;color: #FF4223">17</span> Years of Journey </h3>
               {{--  <p class="text-center"><img src="img/year.png" width="300"/></p>--}}
-                <p style="text-align: left">Having started a venture 17 years ago, today I am privileged to be a
+                <p style="text-align: justify">Having started a venture 17 years ago, today I am privileged to be a
                     founding member of one of the
                     most competitive chemical company with emphasis on efficiency in operations, reliability for
                     customers and trust on sustainable development.For us, sustainability means aligning economic
@@ -271,8 +271,8 @@
     <section id="call-to-action" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="container text-center">
             <h3>Interested in working with German Chemicals Limited?</h3>
-            <p>We don’t just manage suppliers, we micro-manage them. We have a consultative, personalized approach</p>
-            <a class="cta-btn" href="/career">Get In Touch</a>
+            <p class="text-center">We don’t just manage suppliers, we micro-manage them. We have a consultative, personalized approach</p>
+            <a class="cta-btn" href="/career#services">Get In Touch</a>
         </div>
     </section>
     <!--==========================
@@ -334,7 +334,7 @@
                  <div class="row">
 
 
-                     <div class="col-lg-5 col-md-6 footer-contact">
+                     <div class="col-lg-4 col-md-6 footer-contact">
                          <h4>Factory Address</h4>
                          <p>
                              SFB 07, Ground Floor,
@@ -346,7 +346,7 @@
                          </p>
 
                      </div>
-                     <div class="col-lg-5 col-md-6 footer-contact">
+                     <div class="col-lg-4 col-md-6 footer-contact">
                          <div class="social-links">
                              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -358,6 +358,18 @@
                          <div class="copyrifght" style="margin-top: 5px">
                              Developed by <a href="https://pixonlab.com/">PixonLab</a>
                          </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 footer-contact">
+                         <h4>Head Office</h4>
+                         <p>
+                             <i class="fa fa-map-signs"></i> House No: 168 (1st Floor), Road No: 23,
+                             Mohakhali DOHS,<br> Dhaka-1212, Bangladesh.
+                             <br>
+                             <i class="fa fa-phone"></i> +88027790248, 7790272
+                             <br>
+                             <i class="fa fa-fax"></i> Fax: +88027790273
+                         </p>
+
                      </div>
 
 

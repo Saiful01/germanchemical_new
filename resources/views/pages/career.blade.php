@@ -8,8 +8,8 @@
 
     <section id="contact-background" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="container text-center">
-            <h3>WE ARE GERMAN CHEMICALS LIMITED</h3>
-            <p style="text-align: center;">BEYOND YOUR DESIRED EXPECTATION</p>
+            <h3>We Are German Chemicls Limited</h3>
+            <p style="text-align: center;">Beyond Your Desired Expectation</p>
         </div>
     </section>
 
@@ -36,7 +36,7 @@
                      style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="about-col">
                         <div class="img">
-                            <img src="/images/career/opportunity.jpg" alt="" class="img-fluid" style="height: 200px;">
+                            <img src="/images/career/opportunity.jpg" alt="" class="img-fluid" style="height: 200px; width: 100%">
                             <div class="icon"><i class="ion-ios-list-outline"></i></div>
                         </div>
                         <h2 class="title"><a href="#">There are opportunities for all</a></h2>
@@ -72,7 +72,7 @@
                         <div class="col-md-6  wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <div class="about-col">
                                 <div class="img">
-                                    <img src="/images/career/teamwork.png" alt="" class="img-fluid"  style="height: 200px;">
+                                    <img src="/images/career/teamwork.png" alt="" class="img-fluid"  style="height: 200px;width: 100%">
                                     <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                                 </div>
                                 <h2 class="title"><a href="#">We meet our goals through positive teamwork</a></h2>
@@ -90,7 +90,7 @@
                             <div class="about-col">
                                 <div class="img">
                                     <img src="/images/career/thing.jpg" alt="" class="img-fluid"
-                                         style="height: 200px;">
+                                         style="height: 200px;width: 100%">
                                     <div class="icon"><i class="ion-ios-list-outline"></i></div>
                                 </div>
                                 <h2 class="title"><a href="#">We do the right thing</a></h2>
@@ -111,7 +111,7 @@
     </section>
 
 
-    <section id="services">
+    <section id="services" style="text-align: justify">
         <div class="container">
 
 
@@ -131,7 +131,7 @@
 
                     <div class="contact-detail-shadow">
                         <h1 class="heading-main mb-4">
-                            FILL UP THE FORM
+                            Fill Up The Form
                         </h1>
 
                         <form action="/apply/store" method="post" enctype='multipart/form-data'
@@ -157,33 +157,47 @@
                             </div>
 
                             <div class="form-row mb-4">
-                                <input type="email" name="apply_nid" class="form-control"
-                                       placeholder="Your NID number" required>
+                                <div class="col-md-6">
+                                    <select class="form-control" name="apply_interest" required>
+                                        <option value="">---Select your intereseted field---</option>
+                                        <option value="Human Recourses">Human Recourses</option>
+                                        <option value="Audit &amp; Compliance"> Audit &amp; Compliance</option>
+                                        <option value="Legal Affairs">Legal Affairs</option>
+                                        <option value="Finance &amp; Accounts">Finance &amp; Accounts</option>
+                                        <option value="Information &amp; Technology">Information &amp; Technology</option>
+                                        <option value="Administration">Administration</option>
+                                        <option value="Sales &amp; Marketing">Sales &amp; Marketing</option>
+                                        <option value="Construction &amp; Engineering">Construction &amp; Engineering</option>
+                                        <option value="Customer Service/After Sales">Customer Service/After Sales</option>
+                                        <option value="Supply Chain/Procurement">Supply Chain/Procurement</option>
+                                        <option value="Others">Others</option>
+                                    </select>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="apply_nid" class="form-control"
+                                           placeholder="Your NID number" required>
+
+                                </div>
+
                             </div>
+
                             <div class="form-row mb-4">
-                                <select class="form-control" name="apply_interest" required>
-                                    <option value="">---Select your intereseted field---</option>
-                                    <option value="Human Recourses">Human Recourses</option>
-                                    <option value="Audit &amp; Compliance"> Audit &amp; Compliance</option>
-                                    <option value="Legal Affairs">Legal Affairs</option>
-                                    <option value="Finance &amp; Accounts">Finance &amp; Accounts</option>
-                                    <option value="Information &amp; Technology">Information &amp; Technology</option>
-                                    <option value="Administration">Administration</option>
-                                    <option value="Sales &amp; Marketing">Sales &amp; Marketing</option>
-                                    <option value="Construction &amp; Engineering">Construction &amp; Engineering</option>
-                                    <option value="Customer Service/After Sales">Customer Service/After Sales</option>
-                                    <option value="Supply Chain/Procurement">Supply Chain/Procurement</option>
-                                    <option value="Others">Others</option>
-                                </select>
-                            </div>
-                            <div class="form-row mb-4">
-                                <input type="file" name="apply_cv" class="form-control"
-                                       placeholder="" required>
+                                <div class="fileUpload btn btn-primary">
+                                    <label class="upload">
+                                        <input type="file" name="apply_cv" class="form-control"
+                                               required>
+                                        Please Upload Your CV
+                                    </label>
+                                </div>
+
+
+
                             </div>
                             <div class="form-row text-center">
 
                                 <button type="submit"
-                                        class="btn btn-info">Send <i
+                                        class="btn btn-big btn-info">Send <i
                                             class="icofont-rounded-right"></i></button>
                             </div>
                         </form>

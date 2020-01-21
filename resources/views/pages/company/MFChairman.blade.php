@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-sm-3">
 
-                    <img width="100%" height="232"
+                    <img width="100%" height="100%"
                          src="/img/Badiul-Alam-Chairman.png"
                          class="img-thumbnail" alt="">
                 </div>
@@ -42,8 +42,8 @@
                          width="150px"> -->
 
 
-                    <p><strong>Md. Badiul Alam <br>Chairman<br>
-                            German Chemicals Limited</strong></p>
+                    <p><b>Md. Badiul Alam <br>Chairman<br>
+                            German Chemicals Limited</b></p>
                     <p></p>
 
                 </div>

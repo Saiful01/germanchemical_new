@@ -1732,3 +1732,11 @@ a:focus {
 p {
     text-align: justify;
 }
+input[type="file"]
+{
+    display: none;
+}
+.fileUpload input.upload
+{
+    display: inline-block;
+}

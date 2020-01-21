@@ -18,10 +18,10 @@
                 <div class="col-md-6 col-sm-12 col-lg-6 wow fadeInRight" data-wow-duration="0" data-wow-delay="0s"
                      style="visibility: visible; animation-delay: 0s; animation-name: fadeInRight;">
                     <div class="contact-detail-shadow">
-                        <h4 style="font-weight: 600;">German Chemical Limited.</h4>
+                        <h4 style="font-weight: 600;">German Chemicals Limited.</h4>
                         <div class="align-items-start items">
                             <h4>Head Office:</h4>
-                            <i class="fa fa-map-signs"></i> House No: 168 (1st Floor), Road No: 23
+                            <i class="fa fa-map-signs"></i> House No: 168 (1st Floor), Road No: 23,
                             Mohakhali DOHS,<br> Dhaka-1212, Bangladesh.
                             <br>
                             <i class="fa fa-phone"></i> 09606070707
@@ -29,14 +29,13 @@
 
                         <div class="align-items-start items" style="margin-top: 15px">
                             <h4>Factory:</h4>
-                            <i class="fa fa-map-signs"></i>SFB 07, Ground Floor, Dhaka EPZ
+                            <i class="fa fa-map-signs"></i>SFB 07, Ground Floor, Dhaka EPZ,
                             Ashulia, Savar, Dhaka-1349, </br>Bangladesh
 
 
                             <br>
-                            <i class="fa fa-phone"></i> +88027790248, 7790272
-                            <br>
-                            <i class="fa fa-phone"></i> Fax: +88027790273
+                            <i class="fa fa-phone"></i> +88027790248, 7790272<br>
+                            <i class="fa fa-fax"></i> Fax: +88027790273
                         </div>
 
                         <div class="align-items-start items" style="margin-top: 10px">
@@ -48,11 +47,11 @@
 
                         <div class="align-items-start items" style="margin-top: 10px">
                             <div class="social-links">
-                                <a href="#" class="twitter btn btn-info"><i class="fa fa-twitter"></i></a>
-                                <a href="#" class="facebook btn btn-info"><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="instagram btn btn-info"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="google-plus btn btn-info" ><i class="fa fa-youtube"></i></a>
-                                <a href="/contact" class="linkedin btn btn-info"><i class="fa fa-envelope"></i></a>
+                                <a href="#" class="twitter "><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="facebook "><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="instagram "><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="google-plus " ><i class="fa fa-youtube"></i></a>
+                                <a href="/contact" class="linkedin "><i class="fa fa-envelope"></i></a>
                             </div>
 
                         </div>
@@ -71,7 +70,7 @@
 
                     <div class="contact-detail-shadow">
 
-                        <h4 class="heading-main mb-4" style="padding-left: 10px;font-weight: 400">
+                        <h4 class="heading-main mb-4" style="padding-left: 12px;font-weight: 400">
                             Contact us
                         </h4>
                     </div>
