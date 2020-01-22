@@ -34,10 +34,12 @@
             padding-top: 95px;
         }
         #header {
-            background: rgba(111, 107, 107, 0.9);
+            /*background: rgba(111, 107, 107, 0.9);*/
+            background: #fff;
         }
+
         .nav-menu a {
-            color: #fff;
+            color: black;
         }
     </style>
 

@@ -31,28 +31,28 @@
 
                 </div>
                 <div class="col-md-6">
-                    <img style="height: 300px;" src="/img/company/factory.jpg"
-                         class="img-responsive img-thumbnail">
+                    <img style="height: 300px; width: 100%" src="/img/company/factory.jpg"
+                         class="img-responsive">
 
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <p class="text-justify">
-                    GCL never compromises with its product
-                    qualities and at the same time we are trying our best to make our chemicals cost effective
-                    for our valuable customers. We are committed to supply different types of textile
-                    auxiliary’s chemicals with better quality with minimum cost for pretreatment, dying,
-                    finishing, printing and washing plant. We import raw chemicals from German manufactures and
-                    process in our processing plant as per prescribed formula from the parent manufactures by
-                    maintaining the quality of the processed/finished products exactly the same as the parent
-                    manufactures.
-                    <br>
-                    <br>
-                    Our parent manufacturer frequently checks and ensure the quality of our
-                    products. Our expertise team is experienced with international corporate backgrounds with
-                    proven service record. We are highly professional, dynamic and ready to work round the clock
-                    to make our customers delighted.
+                        GCL never compromises with its product
+                        qualities and at the same time we are trying our best to make our chemicals cost effective
+                        for our valuable customers. We are committed to supply different types of textile
+                        auxiliary’s chemicals with better quality with minimum cost for pretreatment, dying,
+                        finishing, printing and washing plant. We import raw chemicals from German manufactures and
+                        process in our processing plant as per prescribed formula from the parent manufactures by
+                        maintaining the quality of the processed/finished products exactly the same as the parent
+                        manufactures.
+                        <br>
+                        <br>
+                        Our parent manufacturer frequently checks and ensure the quality of our
+                        products. Our expertise team is experienced with international corporate backgrounds with
+                        proven service record. We are highly professional, dynamic and ready to work round the clock
+                        to make our customers delighted.
                     </p>
 
                 </div>

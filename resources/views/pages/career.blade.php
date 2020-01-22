@@ -8,7 +8,7 @@
 
     <section id="contact-background" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="container text-center">
-            <h3>We Are German Chemicls Limited</h3>
+            <h3 style="text-align: center;">We Are German Chemicls Limited</h3>
             <p style="text-align: center;">Beyond Your Desired Expectation</p>
         </div>
     </section>
@@ -130,7 +130,7 @@
                     @endif
 
                     <div class="contact-detail-shadow">
-                        <h1 class="heading-main mb-4">
+                        <h1 class="heading-main mb-4" style="padding-left: 15px">
                             Fill Up The Form
                         </h1>
 
@@ -175,28 +175,32 @@
 
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" name="apply_nid" class="form-control"
+                                    <input type="text" name="apply_nid" class="form-control"
                                            placeholder="Your NID number" required>
 
                                 </div>
 
                             </div>
 
+{{--                            <div class="form-row mb-4">--}}
+{{--                                <div class="fileUpload">--}}
+{{--                                    <label class="upload">--}}
+{{--                                        <input type="file" name="apply_cv" class="form-control"--}}
+{{--                                               required>--}}
+{{--                                        Please Upload Your CV Here--}}
+{{--                                    </label>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                             <div class="form-row mb-4">
-                                <div class="fileUpload btn btn-primary">
-                                    <label class="upload">
-                                        <input type="file" name="apply_cv" class="form-control"
-                                               required>
-                                        Please Upload Your CV
-                                    </label>
-                                </div>
 
+                                <input type="file" id="browse"  name="apply_cv"  style="display: none" onChange="Handlechange();"/>
 
-
+                                <input type="button" value="Click Here" id="fakeBrowse" onclick="HandleBrowseClick();"/>
+                                <input type="text" id="filename"  placeholder="Please Upload Your CV" readonly="true"/>
                             </div>
                             <div class="form-row text-center">
 
-                                <button type="submit"
+                                <button style="width: 150px" type="submit"
                                         class="btn btn-big btn-info">Send <i
                                             class="icofont-rounded-right"></i></button>
                             </div>
@@ -208,5 +212,19 @@
 
         </div>
     </section>
+    <script>
+        function HandleBrowseClick()
+        {
+            var fileinput = document.getElementById("browse");
+            fileinput.click();
+        }
+
+        function Handlechange()
+        {
+            var fileinput = document.getElementById("browse");
+            var textinput = document.getElementById("filename");
+            textinput.value = fileinput.value;
+        }
+    </script>
 
 @endsection

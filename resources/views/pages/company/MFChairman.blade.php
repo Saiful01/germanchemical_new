@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-sm-3">
 
-                    <img width="100%" height="100%"
+                    <img width="100%" height=""
                          src="/img/Badiul-Alam-Chairman.png"
                          class="img-thumbnail" alt="">
                 </div>
@@ -34,15 +34,13 @@
                         dedication and support. We are committed to improve the efficiency in our operations and
                         differentiate ourselves in the market-place through customer focused innovation in product and
                         services, so as to build a stronger and sustainable future for our company and our associates.
-
-                    </p>
-
+                       <br>
                     <!-- <img class=""
                          src="/img/MD-sir-sign.png" alt=""
                          width="150px"> -->
 
 
-                    <p><b>Md. Badiul Alam <br>Chairman<br>
+                    <b>Md. Badiul Alam <br>Chairman<br>
                             German Chemicals Limited</b></p>
                     <p></p>
 

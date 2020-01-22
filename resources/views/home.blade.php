@@ -8,13 +8,14 @@
     <meta content="" name="description">
 
     <!-- Favicons -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
     <link href="/img/logo.png" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap CSS File -->
     <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -236,8 +237,8 @@
             <div class="owl-carousel testimonials-carousel">
 
                 <div class="testimonial-item">
-                    <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-                    <h3>Richard</h3>
+                    <img src="img/motiur.jpg" class="testimonial-img" alt="">
+                    <h3>Motiur</h3>
                     <!-- <h4>Ceo &amp; Founder</h4>-->
                     <p>
                         <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
@@ -365,9 +366,7 @@
                              <i class="fa fa-map-signs"></i> House No: 168 (1st Floor), Road No: 23,
                              Mohakhali DOHS,<br> Dhaka-1212, Bangladesh.
                              <br>
-                             <i class="fa fa-phone"></i> +88027790248, 7790272
-                             <br>
-                             <i class="fa fa-fax"></i> Fax: +88027790273
+                            <i class="fa fa-phone"></i> 09606070707
                          </p>
 
                      </div>
