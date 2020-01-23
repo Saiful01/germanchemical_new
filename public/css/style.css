@@ -1776,4 +1776,10 @@ input[type="file"]
     /* padding-left: 6px; */
     margin-left: 43px;
 }
-
+#header.header-scrolled {
+    /* background: rgba(0, 0, 0, 0.9); */
+    background: #fff;
+    padding: 20px 0;
+    height: 78px;
+    transition: all 0.5s;
+}

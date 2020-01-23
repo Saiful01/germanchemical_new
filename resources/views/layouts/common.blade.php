@@ -139,7 +139,7 @@
 -->
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong>German Chemical LTD.</strong>
+            &copy; Copyright <strong>German Chemical Limited</strong>
         </div>
         <div class="credits">
             Developed by <a href="https://pixonlab.com/">PixonLab</a>

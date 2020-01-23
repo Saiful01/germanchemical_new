@@ -9,7 +9,7 @@
     <section id="services">
         <div class="container">
 
-            {{--   <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            {{--   <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                    <h3>Contact Us</h3>
 
                </header>--}}
@@ -22,9 +22,10 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="text-justify">
-                                    <h4>Head Office:</h4>
-                                    <i class="fa fa-map-signs"></i> House No: 168 (1st Floor), Road No: 23,
-                                    Mohakhali DOHS,<br> Dhaka-1212, Bangladesh.
+                                    <h4 style="margin-bottom: 5px;">Head Office:</h4>
+                                    <i class="fa fa-map-signs"></i> House No: 168 (1st Floor),<br>
+                                    <span style="padding-left: 19px">Road No: 23, Mohakhali DOHS,</span><br>
+                                    <span style="padding-left: 19px">Dhaka-1212, Bangladesh.</span>
                                     <br>
                                     <i class="fa fa-phone"></i> 09606070707
                                 </div>
@@ -41,14 +42,15 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="text-justify">
-                                    <h4>Factory:</h4>
-                                    <i class="fa fa-map-signs"></i>SFB 07, Ground Floor, Dhaka EPZ,
-                                    Ashulia, Savar, Dhaka-1349, <br> Bangladesh
+                                    <h4 style="    margin-bottom: 5px;">Factory:</h4>
+                                    <i class="fa fa-map-signs"></i>SFB 07, Ground Floor, Dhaka <span style="padding-left: 15px">EPZ,
+                                        Ashulia, Savar,</span> <br>
+                                    <span style="padding-left: 15px">Dhaka-1349, Bangladesh</span>
 
 
                                     <br>
-                                    <i class="fa fa-phone"></i> +88027790248, 7790272<br>
-                                    <i class="fa fa-fax"></i> Fax: +88027790273
+                                    <i class="fa fa-phone"></i> +88 02 7790248, 7790272<br>
+                                    <i class="fa fa-fax"></i> Fax: +88 02 7790273
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -63,13 +65,13 @@
 
                     </div>
 
-                    <div class="align-items-start items" style="margin-top: 10px">
+                    <div class="align-items-start items" style="margin-top: 53px;">
                         <div class="social-links">
                             <a href="#" class="twitter btn "><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="facebook btn "><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/pg/GermanChemicalsLimited/about/?ref=page_internal"
+                               class="facebook btn "><i class="fa fa-facebook"></i></a>
                             <a href="#" class="instagram btn "><i class="fa fa-instagram"></i></a>
                             <a href="#" class="google-plus btn  "><i class="fa fa-youtube"></i></a>
-                            <a href="/contact" class="linkedin btn "><i class="fa fa-envelope"></i></a>
                         </div>
 
                     </div>
@@ -123,12 +125,12 @@
                         </div>
                         <div class="form-row">
                             <div class="col-md-6">
-                                <h4>5+5=10</h4>
+                                {{-- <h4>5+5=10</h4>--}}
                             </div>
                             <div class="col-md-6">
                                 <button type="submit"
                                         class="btn btn-info btn-block">Send <i
-                                        class="icofont-rounded-right"></i></button>
+                                            class="icofont-rounded-right"></i></button>
                             </div>
 
 
@@ -170,7 +172,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <h1 style="text-align: center">Factory</h1>
+                <h1 style="text-align: center;">Factory</h1>
 
                 <div class="mapouter">
                     <div class="gmap_canvas">

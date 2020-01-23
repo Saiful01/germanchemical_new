@@ -14,7 +14,7 @@
         </li>
 
      {{--   <li><a href="/media">Media</a></li>--}}
-        <li><a href="/products">Product</a></li>
+        <li><a href="/products">Products</a></li>
        {{-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle-mob" href="/career" data-toggle="dropdown"
                aria-haspopup="true" aria-expanded="false">Career <i class="icofont-rounded-down"></i></a>

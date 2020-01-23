@@ -6,10 +6,22 @@
 
 @section('content')
 
+    <style>
+
+
+        #contact-background {
+            margin-top: -3px;
+            height: 230px;
+        }
+
+        #about {
+            padding: 31px 0 40px 0;
+        }
+    </style>
     <section id="contact-background" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="container text-center">
-            <h3 style="text-align: center;">We Are German Chemicls Limited</h3>
-            <p style="text-align: center;">Beyond Your Desired Expectation</p>
+            <h3 style="text-align: center;    margin-top: -30px;">We Are German Chemicls Limited</h3>
+            <p style="text-align: center;margin-top: -25px;font-size: 25px;">Beyond Your Desired Expectation</p>
         </div>
     </section>
 
@@ -36,7 +48,8 @@
                      style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="about-col">
                         <div class="img">
-                            <img src="/images/career/opportunity.jpg" alt="" class="img-fluid" style="height: 200px; width: 100%">
+                            <img src="/images/career/opportunity.jpg" alt="" class="img-fluid"
+                                 style="height: 200px; width: 100%">
                             <div class="icon"><i class="ion-ios-list-outline"></i></div>
                         </div>
                         <h2 class="title"><a href="#">There are opportunities for all</a></h2>
@@ -72,7 +85,8 @@
                         <div class="col-md-6  wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <div class="about-col">
                                 <div class="img">
-                                    <img src="/images/career/teamwork.png" alt="" class="img-fluid"  style="height: 200px;width: 100%">
+                                    <img src="/images/career/teamwork.png" alt="" class="img-fluid"
+                                         style="height: 200px;width: 100%">
                                     <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                                 </div>
                                 <h2 class="title"><a href="#">We meet our goals through positive teamwork</a></h2>
@@ -121,7 +135,7 @@
                      style="visibility: visible; animation-delay: 0s; padding:25px;animation-name: fadeInLeft; background-color: #F4F4F4">
 
 
-                @if(Session::has('success'))
+                    @if(Session::has('success'))
                         <p class="alert {{ Session::get('alert-class', 'alert-success') }}">{{ Session::get('success') }}</p>
                     @endif
 
@@ -164,11 +178,14 @@
                                         <option value="Audit &amp; Compliance"> Audit &amp; Compliance</option>
                                         <option value="Legal Affairs">Legal Affairs</option>
                                         <option value="Finance &amp; Accounts">Finance &amp; Accounts</option>
-                                        <option value="Information &amp; Technology">Information &amp; Technology</option>
+                                        <option value="Information &amp; Technology">Information &amp; Technology
+                                        </option>
                                         <option value="Administration">Administration</option>
                                         <option value="Sales &amp; Marketing">Sales &amp; Marketing</option>
-                                        <option value="Construction &amp; Engineering">Construction &amp; Engineering</option>
-                                        <option value="Customer Service/After Sales">Customer Service/After Sales</option>
+                                        <option value="Construction &amp; Engineering">Construction &amp; Engineering
+                                        </option>
+                                        <option value="Customer Service/After Sales">Customer Service/After Sales
+                                        </option>
                                         <option value="Supply Chain/Procurement">Supply Chain/Procurement</option>
                                         <option value="Others">Others</option>
                                     </select>
@@ -182,27 +199,32 @@
 
                             </div>
 
-{{--                            <div class="form-row mb-4">--}}
-{{--                                <div class="fileUpload">--}}
-{{--                                    <label class="upload">--}}
-{{--                                        <input type="file" name="apply_cv" class="form-control"--}}
-{{--                                               required>--}}
-{{--                                        Please Upload Your CV Here--}}
-{{--                                    </label>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
+                            {{--                            <div class="form-row mb-4">--}}
+                            {{--                                <div class="fileUpload">--}}
+                            {{--                                    <label class="upload">--}}
+                            {{--                                        <input type="file" name="apply_cv" class="form-control"--}}
+                            {{--                                               required>--}}
+                            {{--                                        Please Upload Your CV Here--}}
+                            {{--                                    </label>--}}
+                            {{--                                </div>--}}
+                            {{--                            </div>--}}
                             <div class="form-row mb-4">
+                                <div class="col-md-12">
+                                    <input type="file" id="browse" name="apply_cv" style="display: none"
+                                           onChange="Handlechange();"/>
 
-                                <input type="file" id="browse"  name="apply_cv"  style="display: none" onChange="Handlechange();"/>
-
-                                <input type="button" value="Click Here" id="fakeBrowse" onclick="HandleBrowseClick();"/>
-                                <input type="text" id="filename"  placeholder="Please Upload Your CV" readonly="true"/>
+                                    <input type="button" value="Click Here" id="fakeBrowse"
+                                           onclick="HandleBrowseClick();"/>
+                                    <input type="text" id="filename" placeholder="Please Upload Your CV"
+                                           readonly="true"/>
+                                </div>
                             </div>
                             <div class="form-row text-center">
 
-                                <button style="width: 150px" type="submit"
+                                <button style="width: 150px;margin-left: 5px" type="submit"
                                         class="btn btn-big btn-info">Send <i
                                             class="icofont-rounded-right"></i></button>
+
                             </div>
                         </form>
 
@@ -213,14 +235,12 @@
         </div>
     </section>
     <script>
-        function HandleBrowseClick()
-        {
+        function HandleBrowseClick() {
             var fileinput = document.getElementById("browse");
             fileinput.click();
         }
 
-        function Handlechange()
-        {
+        function Handlechange() {
             var fileinput = document.getElementById("browse");
             var textinput = document.getElementById("filename");
             textinput.value = fileinput.value;
