@@ -6,10 +6,11 @@
 
 @section('content')
 
+
     <section id="services">
         <div class="container">
 
-            <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                 <h3>Message from Chairman</h3>
 
             </header>

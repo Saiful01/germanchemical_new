@@ -20,6 +20,14 @@ Route::post('/admin/login/check', 'LoginController@loginCheck');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin/logout', 'LoginController@logout');
 
+
+
+Route::get('/admin/setting', 'HomeController@setting');
+Route::post('/admin/setting/update', 'HomeController@settingUpdate');
+
+
+
+
 //Admin Section slider
 Route::get('/slider/create', 'SliderController@create');
 Route::post('/slider/store', 'SliderController@store');

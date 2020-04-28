@@ -9,8 +9,8 @@
     <section id="services">
         <div class="container">
 
-            <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                <h3 class="text-center"> PRODUCTS DETAILS</h3>
+            <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                <h3 class="text-center"> PRODUCT DETAILS</h3>
 
             </header>
 

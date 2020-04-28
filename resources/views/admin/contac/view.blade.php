@@ -4,7 +4,13 @@
     <div class="card">
         <div class="card-header">
 
-            <h1 class="text-center text-primary">Contact List</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Contact</h4>
+                </div>
+
+
+            </div>
         </div>
 
 

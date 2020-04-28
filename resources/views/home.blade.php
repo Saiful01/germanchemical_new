@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
     <title>German Chemical LTD.</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -159,7 +159,7 @@
 
                     I would like to thank our employees, customers, suppliers and other stakeholders, for their
                     dedication and support. We are committed to improving the efficiencies in our operations and
-                    differentiating ourselves in the market-place through customer focussed innovation in product and
+                    differentiating ourselves in the market-place through customer focused innovation in product and
                     services, so as to build a stronger and sustainable future for our Company and our associates.</p>
 
                 <div class="row testimonials" style="padding-top: 0px">
@@ -169,7 +169,7 @@
                             <img src="img/chairman.png" class="testimonial-img" alt="">
                             <h2 style="font-size: 23px;
     font-weight: 500;
-    margin-bottom: 3px;">MD. Badiul Alam</h2>
+    margin-bottom: 3px;">Md. Badiul Alam</h2>
                             <h4>Founder & Chairman</h4>
 
                         </div>
@@ -244,7 +244,7 @@
                     <!-- <h4>Ceo &amp; Founder</h4>-->
                     <p>
                         <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                        German Chemicals Limited have been able to service a broad range of research needs while always
+                        German Chemicals Limited have been able to provide a broad range of chemicals while always
                         remaining flexible, cost effective, and most importantly lightning fast. They are a trusted
                         partner for us. Keep up the good work!
                         <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
@@ -256,9 +256,10 @@
                     <!-- <h4>Ceo &amp; Founder</h4>-->
                     <p>
                         <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                        German Chemicals Limited have been able to service a broad range of research needs while always
-                        remaining flexible, cost effective, and most importantly lightning fast. They are a trusted
-                        partner for us. Keep up the good work!
+                        German Chemicals Limited is providing world-class textile auxiliaries chemicals with the co-operation of “Archroma” (Switzerland), Rudolf Chemie” (Germany), “Intersac” (Canada), “Siam Pro Dyechem Group” (Thailand), “Siam Takamatsu Co., Ltd”. (Japan) in Bangladesh market with prompt delivery and superb customer service.
+
+ 
+
                         <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
                     </p>
                 </div>
@@ -274,7 +275,7 @@
     <section id="call-to-action" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="container text-center">
             <h3>Interested in working with German Chemicals Limited?</h3>
-            <p class="text-center">We don’t just manage suppliers, we micro-manage them. We have a consultative,
+            <p class="text-center" style="margin-top:-15px">We don’t just manage suppliers, we micro-manage them. We have a consultative,
                 personalized approach</p>
             <a class="cta-btn" href="/career#services">Get In Touch</a>
         </div>
@@ -339,15 +340,23 @@
 
 
                     <div class="col-lg-4 col-md-6 footer-contact">
-                        <h4>Factory Address</h4>
-                        <p>
-                            SFB 07, Ground Floor,
-                            Dhaka EPZ Ashulia, <br>
-                            Savar, Dhaka-1349,
-                            Bangladesh<br>
-                            <strong>Phone:</strong> +88027790248, 7790272<br>
-                            <strong>Fax:</strong> +88027790273<br>
-                        </p>
+                       
+                      
+                                <div class="text-justify">
+                                    <h4 style="    margin-bottom: 5px;">Factory:</h4>
+                                    <i class="fa fa-map-signs"></i><span style="text-align:left">SFB 07, Ground Floor, Dhaka </span><br><span style="padding-left: 15px">EPZ,
+                                        Ashulia, Savar,</span> <br>
+                                    <span style="padding-left: 15px">Dhaka-1349, Bangladesh</span>
+
+
+                                    <br>
+                                    <i class="fa fa-phone"></i> IP Phone No: 09606070707<br>
+                                    <i class="fa fa-phone"></i> +88 02 7790248, 7790272<br>
+
+                                    <i class="fa fa-fax"></i> Fax: +88 02 7790273<br>
+
+                                </div>
+                       
 
                     </div>
                     <div class="col-lg-4 col-md-6 footer-contact" style="text-align: center;">
@@ -369,14 +378,16 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 footer-contact">
-                        <h4>Head Office</h4>
-                        <p>
-                            <i class="fa fa-map-signs"></i> House No: 168 (1st Floor), Road No: 23,
-                            Mohakhali DOHS,<br> Dhaka-1212, Bangladesh.
-                            <br>
-                            <i class="fa fa-phone"></i> 09606070707
-                        </p>
-
+                   
+                                <div class="text-justify">
+                                    <h4 style="margin-bottom: 5px;">Head Office:</h4>
+                                    <i class="fa fa-map-signs"></i> House No: 168 (1st Floor),<br>
+                                    <span style="padding-left: 19px">Road No: 23, Mohakhali DOHS,</span><br>
+                                    <span style="padding-left: 19px">Dhaka-1212, Bangladesh.</span>
+                                    <br>
+                                    <i class="fa fa-phone"></i> IP Phone No: 09606070707
+                                </div>
+                           
                     </div>
 
 

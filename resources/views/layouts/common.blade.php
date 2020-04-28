@@ -1,11 +1,24 @@
+
+<!--
+Crafted By:
+................
+         Pixonlab
+web:     pixonlab.com
+Address: Concord Regency
+        19/1 Panthapath, Dhaka 1205
+Phone: 01717849968
+
+
+-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
     <title>German Chemical LTD @yield('title')</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta name="author" content="Pixon Lab">
+    <meta name="description" content="German Chemicals LTD, German Chemicals Limited">
+    <meta name="keywords" content="German Chemicals LTD, German Chemicals Limited">
 
     <!-- Favicons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -41,6 +54,16 @@
         .nav-menu a {
             color: black;
         }
+        .map-bg{
+            padding-bottom: 109px;
+        }
+        #services {
+            background: #fff;
+            background-size: cover;
+            padding: 30px 0 40px 0;
+            padding-bottom: 122px;
+        }
+
     </style>
 
     <!-- =======================================================
@@ -79,7 +102,7 @@
 
 </main>
 
-<footer id="footer" >
+<footer id="footer">
     <!-- <div class="footer-top">
          <div class="container">
              <div class="row">

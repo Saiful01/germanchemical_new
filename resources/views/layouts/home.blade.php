@@ -22,9 +22,9 @@ Phone: 01717849968
     <!-- xxx Change With Your Information xxx -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no"/>
     <title>German Chemical LTD @yield('title')</title>
-    <meta name="author" content="Mannat Studio">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="author" content="Pixon Lab">
+    <meta name="description" content="German Chemicals LTD, German Chemicals Limited">
+    <meta name="keywords" content="German Chemicals LTD, German Chemicals Limited">
 
     <!-- xxx Favicon xxx -->
     <link rel="shortcut icon" type="image/x-icon" href="/asset/images/favicon.ico">

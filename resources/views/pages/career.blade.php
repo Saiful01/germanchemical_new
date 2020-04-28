@@ -17,10 +17,13 @@
         #about {
             padding: 31px 0 40px 0;
         }
+#mobile-nav-toggle i {
+    color: #504c4c;
+}
     </style>
     <section id="contact-background" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="container text-center">
-            <h3 style="text-align: center;    margin-top: -30px;">We Are German Chemicls Limited</h3>
+            <h3 style="text-align: center;    margin-top: -30px;">We Are German Chemicals Limited</h3>
             <p style="text-align: center;margin-top: -25px;font-size: 25px;">Beyond Your Desired Expectation</p>
         </div>
     </section>

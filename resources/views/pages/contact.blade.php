@@ -24,15 +24,16 @@
                                 <div class="text-justify">
                                     <h4 style="margin-bottom: 5px;">Head Office:</h4>
                                     <i class="fa fa-map-signs"></i> House No: 168 (1st Floor),<br>
-                                    <span style="padding-left: 19px">Road No: 23, Mohakhali DOHS,</span><br>
+                                    <span style="padding-left: 19px">Road No: 23,Mohakhali DOHS,</span><br>
+
                                     <span style="padding-left: 19px">Dhaka-1212, Bangladesh.</span>
                                     <br>
-                                    <i class="fa fa-phone"></i> 09606070707
+                                    <i class="fa fa-phone"></i> IP Phone No: 09606070707
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div>
-                                    <img id="qr" class="img-thumbnail" src="/img/head.png" alt="qr code">
+                                    <img id="qr" class="img-thumbnail" src="/img/headfinal.png" alt="qr code">
 
                                 </div>
                             </div>
@@ -43,19 +44,23 @@
                             <div class="col-md-6">
                                 <div class="text-justify">
                                     <h4 style="    margin-bottom: 5px;">Factory:</h4>
-                                    <i class="fa fa-map-signs"></i>SFB 07, Ground Floor, Dhaka <span style="padding-left: 15px">EPZ,
+                                    <i class="fa fa-map-signs"></i><span style="text-align:left">SFB 07, Ground Floor, Dhaka </span><span
+                                        style="padding-left: 15px">EPZ,
                                         Ashulia, Savar,</span> <br>
                                     <span style="padding-left: 15px">Dhaka-1349, Bangladesh</span>
 
 
                                     <br>
+                                    <i class="fa fa-phone"></i> IP Phone No: 09606070707<br>
                                     <i class="fa fa-phone"></i> +88 02 7790248, 7790272<br>
-                                    <i class="fa fa-fax"></i> Fax: +88 02 7790273
+
+                                    <i class="fa fa-fax"></i> Fax: +88 02 7790273<br>
+
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div>
-                                    <img id="qr" class="img-thumbnail" src="/img/factory.png" alt="qr code">
+                                    <img id="qr" class="img-thumbnail" src="/img/factory.jpg" alt="qr code">
 
                                 </div>
                             </div>
@@ -130,7 +135,7 @@
                             <div class="col-md-6">
                                 <button type="submit"
                                         class="btn btn-info btn-block">Send <i
-                                            class="icofont-rounded-right"></i></button>
+                                        class="icofont-rounded-right"></i></button>
                             </div>
 
 
@@ -146,73 +151,44 @@
 
     <!-- Google Map Start -->
     <section class="map-bg">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 style="text-align: center">Head office</h1>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 style="text-align: center">Head office</h1>
 
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe width="100%" height="400" id="gmap_canvas"
-                                src="https://maps.google.com/maps?q=House%20no%20168%2C%20Road%2023%2CDOHS%2CMohakhali&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        <a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/">buy nord vpn</a></div>
-                    <style>.mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 400px;
-                            width: 100%;
-                        }
-
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 400px;
-                            width: 100%
-                        }</style>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <h1 style="text-align: center;">Factory</h1>
-
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <div class="mapouter">
-                            <div class="gmap_canvas">
-                                <iframe width="600" height="500" id="gmap_canvas"
-                                        src="https://maps.google.com/maps?q=%20Ground%20Floor%2C%20Dhaka%20EPZ%20Ashulia%2C%20Savar%2C%20Dhaka-1349%2C%20Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                                <a href="https://www.crocothemes.net"></a></div>
-                            <style>.mapouter {
-                                    position: relative;
-                                    text-align: right;
-                                    height: 500px;
-                                    width: 600px;
-                                }
-
-                                .gmap_canvas {
-                                    overflow: hidden;
-                                    background: none !important;
-                                    height: 500px;
-                                    width: 600px;
-                                }</style>
+                    <div class="mapouter" style="border: 1px solid #d8d0d0;
+    padding: 2px;
+    padding-left: 5px;">
+                        <div class="gmap_canvas">
+                            <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d456.3790403555268!2d90.3948281!3d23.7818633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c720d3e8550b%3A0x6af68bf28d13c966!2sGerman%20Chemicals%20Limited!5e0!3m2!1sen!2sbd!4v1580034545255!5m2!1sen!2sbd"
+                                    width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
-                        <style>.mapouter {
-                                position: relative;
-                                text-align: right;
-                                height: 400px;
-                                width: 100%;
-                            }
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h1 style="text-align: center;">Factory</h1>
 
-                            .gmap_canvas {
-                                overflow: hidden;
-                                background: none !important;
-                                height: 400px;
-                                width: 100%
-                            }</style>
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <div class="mapouter" style="border: 1px solid #d8d0d0;
+    padding: 2px;
+    padding-right: 5px;">
+                                <div class="gmap_canvas">
+                                    <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7292.646792890856!2d90.2710959!3d23.9490018!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd5af39e2beb2215!2sGERMAN%20CHEMICALS%20LIMITED!5e0!3m2!1sen!2sbd!4v1579774742694!5m2!1sen!2sbd"
+                                            width="100%" height="400" frameborder="0" style="border:0;"
+                                            allowfullscreen=""></iframe>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
     </section>
     <!-- Google Map Start -->

@@ -10,15 +10,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <style>
-        .custom-container{
+        .custom-container {
             padding-bottom: 35px;
         }
 
-        .card{
+        .card {
             margin-top: 25px;
             border-radius: 0px;
         }
-        .custom-header{
+
+        .custom-header {
             padding: 10px;
         }
 
@@ -32,6 +33,7 @@
             background: #fff;
             border: 0px;
         }
+
         .h4, h4 {
             font-size: 1.5rem;
             text-transform: uppercase;
@@ -55,7 +57,7 @@
 
         <ul class="navbar-nav mr-auto ">
             <li class="nav-item dropdown ">
-                <a class="nav-link active" href="/home" >
+                <a class="nav-link active" href="/home">
                     Home
                 </a>
 
@@ -63,22 +65,23 @@
         </ul>
 
 
-     </div>
+    </div>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse  float-right " id="collapsibleNavbar">
-            <ul class="navbar-nav mr-auto ">
-                <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
-                        Admin
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/admin/logout">Logout</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse  float-right " id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
+                    Admin
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/admin/setting">Setting</a>
+                    <a class="dropdown-item" href="/admin/logout">Logout</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
 
 </nav>
 
@@ -91,7 +94,7 @@
 </div>
 
 <div class="footer fixed-bottom text-center bg-gray-dark">
-    <div > Developed By:PixonLab</div>
+    <div> Developed By: <a href="https://www.pixonlab.com" target="_blank">PLab</a></div>
 
 </div>
 
